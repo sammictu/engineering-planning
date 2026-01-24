@@ -8,10 +8,10 @@
 
 ## 🎯 Weekly Priorities
 
-1. **Primary Epic Focus:** GRO-1211 - Self-Serve Updated Estimates (60% capacity)
+1. **Primary Epic Focus:** GRO-1211 - Self-Serve Updated Estimates (60% capacity) **⚠️ CRITICAL: Target Release 1/29 - CANNOT MISS**
 2. **Critical Bugs:** Customer-facing issues from backlog (30% capacity)
 3. **Operational Health:** BugSnag noise cleanup, log sorting (10% capacity)
-4. **Prep Work:** Design/planning for GRO-1246 and GRO-1189
+4. **Prep Work:** Design/planning for GRO-1246 (Follow Up Work with Self Serve Estimate) and GRO-1189 (Upgrade to React 19)
 
 ---
 
@@ -65,19 +65,19 @@
 ---
 
 ### Robert Cox (Design + Frontend)
-**Primary Focus:** Design work for GRO-1246 + Frontend support
+**Primary Focus:** Design work for GRO-1246 (Follow Up Work with Self Serve Estimate) + Frontend support
 
 **Current:**
 - Complete any in-flight design work
 
 **New Work:**
-- GRO-1246: [Design] Design work for upcoming epic
+- GRO-1246 (Follow Up Work with Self Serve Estimate): [Design] Design work for upcoming epic
   - Create Figma designs
   - User flow documentation
   - Collaborate with team on requirements
 
 **New Work - Prep:**
-- GRO-1189: [Design] Initial design exploration if capacity allows
+- GRO-1189 (Upgrade to React 19): [Design] Initial design exploration if capacity allows
 
 **Code Review Support:**
 - Review PRs to unblock pipeline
@@ -92,10 +92,10 @@
 
 ## 📊 Summary by Focus Area
 
-**Primary Epic (GRO-1211):** 60% of capacity
+**Primary Epic (GRO-1211 - Self-Serve Updated Estimates):** 60% of capacity **⚠️ MUST SHIP 1/29**
 - Richard: Continuing frontend work (6-7 tickets in flight)
 - David: Backend support for Self-Serve Updated Estimates
-- Goal: Significant progress toward completion
+- **Goal: COMPLETE AND SHIP by 1/29 - CRITICAL DEADLINE**
 
 **Critical Bugs:** 30% of capacity
 - David: 3-4 critical customer-facing bugs from backlog
@@ -114,24 +114,24 @@
   - Plan structured logging improvements
 
 **Prep Work:** 5-10% of capacity
-- Robert: Design for GRO-1246
-- Team: Planning discussions for GRO-1189 and GRO-1269
+- Robert: Design for GRO-1246 (Follow Up Work with Self Serve Estimate)
+- Team: Planning discussions for GRO-1189 (Upgrade to React 19) and GRO-1269 (Increase HELOC Opt-In Rate)
 
 ---
 
 ## 🎯 Week Goals
 
 **Must Complete:**
-- [ ] Ship 3-4 tickets from GRO-1211 to production
+- [ ] **⚠️ CRITICAL: Ship GRO-1211 (Self-Serve Updated Estimates) to production by 1/29 - CANNOT MISS**
 - [ ] Fix 3-4 critical customer-facing bugs
 - [ ] Complete BugSnag error audit (GRO-1272)
 - [ ] Complete log audit (GRO-1274)
-- [ ] Design work for GRO-1246 started
+- [ ] Design work for GRO-1246 (Follow Up Work with Self Serve Estimate) started
 
 **Stretch Goals:**
 - [ ] Implement BugSnag filters (GRO-1273)
 - [ ] Start log improvements from audit findings
-- [ ] Begin prep work for GRO-1189
+- [ ] Begin prep work for GRO-1189 (Upgrade to React 19)
 
 ---
 
@@ -181,16 +181,19 @@
 ## 🚨 Risk Mitigation
 
 **Risks:**
-1. Richard has 6-7 tickets in flight - may be at capacity
-2. Adding operational work may reduce feature velocity
-3. Bug prioritization may change based on customer escalations
-4. Design work timing dependent on product requirements clarity
+1. **⚠️ CRITICAL: GRO-1211 (Self-Serve Updated Estimates) MUST ship by 1/29 - CANNOT MISS**
+2. Richard has 6-7 tickets in flight - may be at capacity
+3. Adding operational work may reduce feature velocity
+4. Bug prioritization may change based on customer escalations
+5. Design work timing dependent on product requirements clarity
 
 **Mitigation:**
-- Richard: Focus on finishing existing work first, operational work as time allows
-- Timebox operational work strictly (4-6 hours total for team)
-- David: Focus on high-impact quick wins for bugs and operational tasks
-- Robert: Front-load design work to unblock next sprint
+- **GRO-1211 MUST be top priority for entire team - all hands on deck if needed**
+- **Daily check-ins on GRO-1211 progress - escalate blockers immediately**
+- Richard: Focus on finishing GRO-1211 tickets first, defer operational work if needed
+- David: Prioritize GRO-1211 backend support, bugs can be pushed if necessary
+- Timebox operational work strictly (4-6 hours total for team) - defer if conflicts with 1/29 deadline
+- Robert: Support GRO-1211 with reviews and design clarifications as highest priority
 - Daily standups: Check capacity and adjust priorities as needed
 
 ---
@@ -200,20 +203,20 @@
 **Growth Team Size:** 3 engineers
 
 **Richard:**
-- 6-7 tickets in flight (GRO-1211 focus)
-- 1 operational task (BugSnag audit - 2 hours)
-- **Status:** At or near capacity
+- 6-7 tickets in flight (GRO-1211 - Self-Serve Updated Estimates - **MUST SHIP 1/29**)
+- 1 operational task (BugSnag audit - 2 hours) - defer if conflicts with 1/29 deadline
+- **Status:** At or near capacity - GRO-1211 is top priority
 
 **David:**
-- 3-4 bug fixes
-- GRO-1211 backend support
-- 2 operational tasks (BugSnag audit - 2 hours, Log audit - 1-2 hours)
-- **Status:** Full capacity, well-balanced mix
+- 3-4 bug fixes (can be deferred if conflicts with GRO-1211)
+- GRO-1211 backend support (**MUST SHIP 1/29**)
+- 2 operational tasks (BugSnag audit - 2 hours, Log audit - 1-2 hours) - defer if conflicts with 1/29 deadline
+- **Status:** Full capacity - GRO-1211 is top priority
 
 **Robert:**
-- 1-2 design tickets (GRO-1246, potentially GRO-1189)
-- Code review support
-- **Status:** Good capacity, focus on design deliverables
+- 1-2 design tickets (GRO-1246 - Follow Up Work with Self Serve Estimate, potentially GRO-1189 - Upgrade to React 19)
+- Code review support (prioritize GRO-1211 reviews)
+- **Status:** Good capacity, focus on GRO-1211 support and design deliverables
 
 **Total:** ~12-15 work items + operational health tasks
 
@@ -227,11 +230,11 @@
 - **Operational Health:** Work that improves system observability and reduces on-call burden
 
 **Success Metrics:**
-- GRO-1211: 3-4 tickets shipped to production
+- **⚠️ CRITICAL: GRO-1211 (Self-Serve Updated Estimates) FULLY SHIPPED to production by 1/29**
 - Bugs: 3-4 critical bugs resolved
 - BugSnag: Top 20 errors categorized, action plan created
 - Logs: Audit complete with improvement recommendations
-- Design: GRO-1246 Figma designs in progress
+- Design: GRO-1246 (Follow Up Work with Self Serve Estimate) Figma designs in progress
 
 **Key Links:**
 - Epic: [GRO-1211 - Self-Serve Updated Estimates](https://pointdf.atlassian.net/browse/GRO-1211)

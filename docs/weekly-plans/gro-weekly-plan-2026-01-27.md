@@ -123,6 +123,7 @@
 
 **Must Complete:**
 - [ ] **⚠️ CRITICAL: Ship GRO-1211 (Self-Serve Updated Estimates) to production by 1/29 - CANNOT MISS**
+- [ ] **Complete all mandatory sign-offs for GRO-1275 ([Release Plan] for GRO-1211): QA and Analytics**
 - [ ] Fix 3-4 critical customer-facing bugs
 - [ ] Complete BugSnag error audit (GRO-1272)
 - [ ] Complete log audit (GRO-1274)
@@ -231,6 +232,7 @@
 
 **Success Metrics:**
 - **⚠️ CRITICAL: GRO-1211 (Self-Serve Updated Estimates) FULLY SHIPPED to production by 1/29**
+- **Release Plan (GRO-1275): All mandatory sign-offs completed (QA, Analytics)**
 - Bugs: 3-4 critical bugs resolved
 - BugSnag: Top 20 errors categorized, action plan created
 - Logs: Audit complete with improvement recommendations
@@ -238,6 +240,7 @@
 
 **Key Links:**
 - Epic: [GRO-1211 - Self-Serve Updated Estimates](https://pointdf.atlassian.net/browse/GRO-1211)
+- Release Plan: [GRO-1275 - Release Plan for GRO-1211](https://pointdf.atlassian.net/browse/GRO-1275)
 - Epic: [GRO-1271 - Operational Health](https://pointdf.atlassian.net/browse/GRO-1271)
 - Bug Dashboard: https://pointdf.atlassian.net/jira/dashboards/10141?maximized=12474
 

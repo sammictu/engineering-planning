@@ -233,6 +233,71 @@ We use a **Kanban methodology** for continuous flow management:
 - **Frequency**: Weekly
 - **Focus**: Review completed work, identify bottlenecks, pull new work based on priorities and capacity
 
+### Jira Ticket Standards
+
+**Ticket Naming Convention:**
+
+When possible, use brackets in the ticket title to indicate the repo or task type. This aids in ticket assignment and tracking:
+
+- **[Design]** - FE UI design work (MUST INCLUDE Figma)
+- **[CP]** - Customer Portal (Prequal and customer dashboard FE) (MUST INCLUDE Figma)
+- **[PQ]** - Ruby on Rails Prequalification and Partner API BE
+- **[HOS]** - Homeowner Service (customer dashboard BE)
+- **[Marketing]** - Ruby on Rails app for marketing-related config such as Direct Mail
+- **[Partner BE]** - Partner portal (aka KBYG) BE
+- **[Partner FE]** - Partner portal (aka KBYG) FE
+- **[QA]** - Quality Assurance Automation test repo
+
+### Story Point Scale (Kanban)
+
+| Size | Definition | Characteristics | Examples |
+|------|-----------|-----------------|----------|
+| **1 (Small)** | Fast-flow item | Single, contained change; one component or service; very low risk; minimal testing; should move quickly | Copy or UI tweak; simple bug fix; config or flag update; logging |
+| **2 (Medium)** | Normal-flow item | Multiple related changes; some logic or validation; touches more than one layer; light integration testing; well understood, common pattern | Add field with validation; FE + BE change; bug needing some investigation |
+| **3 (Large – Max)** | Upper limit for flow | Multiple steps or components; edge cases or error handling; cross-service integration; moderate risk; still expected to flow | New endpoint + UI wiring; non-trivial refactor; feature with multiple acceptance criteria |
+
+### Kanban Hard Rules
+
+| Rule | Description |
+|------|-------------|
+| **Max size** | Any work larger than 3 must be broken down |
+| **Epics** | Epics are never sized |
+| **No subtasks** | Use stories only, never subtasks |
+| **Unknowns** | If scope is unclear, split or spike first |
+| **Flow focus** | Size for throughput and cycle time, not commitment |
+
+### When to Break a Ticket Down
+
+| Signal | Action |
+|--------|--------|
+| Likely to exceed WIP limits | Split before pulling |
+| Multiple handoffs | Split by responsibility |
+| Ticket sits idle | Break into smaller flow units |
+| Waiting on dependency | Separate dependency from delivery |
+| Many acceptance criteria | Split by outcome |
+
+**Example - Epic → Story Breakdown:**
+- **Epic**: Voice Prequal
+  - Stories: Voice input UI (2); Transcription integration (3); Error handling (2); Analytics & logging (1)
+
+### Ready-to-Pull Checklist (Kanban)
+
+Before pulling a ticket into In Progress, ensure:
+- [ ] Acceptance criteria written
+- [ ] Dependencies identified or removed
+- [ ] Size is 1, 2, or 3
+- [ ] Work can move without waiting
+
+### T-Shirt Size (Epic Level)
+
+| Size | Duration | Timeline Guidance |
+|------|----------|-------------------|
+| **XS** | < 2 weeks | Couple of weeks |
+| **S** | 3-4 weeks | About a month |
+| **M** | 5-8 weeks | 1-2 months |
+| **L** | 9-12 weeks | 1 Quarter |
+| **XL** | > 12 weeks | Multiple Quarters |
+
 ### Feature Development Lifecycle
 
 1. **Feature Definition**

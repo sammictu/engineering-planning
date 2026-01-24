@@ -233,6 +233,32 @@ We use a **Kanban methodology** for continuous flow management:
 - **Frequency**: Weekly
 - **Focus**: Review completed work, identify bottlenecks, pull new work based on priorities and capacity
 
+### Weekly Planning Process
+
+We create weekly work plans to organize team capacity and priorities:
+
+**Planning Artifacts:**
+- **Location**: `docs/weekly-plans/` folder
+- **Template**: `gro-weekly-plan-template.md` - Reusable template for weekly planning
+- **Weekly Plans**: `gro-weekly-plan-YYYY-MM-DD.md` - Date is the Monday of the week
+
+**Weekly Plan Structure:**
+- **Week Goals**: Primary epic focus (60%), critical bugs (30%), operational health (10%)
+- **Individual Assignments**: Specific work items for each engineer
+- **Capacity Analysis**: Load balancing across team members
+- **Risk Mitigation**: Potential blockers and mitigation strategies
+- **Success Metrics**: Measurable outcomes for the week
+
+**Naming Convention:**
+- Template: `gro-weekly-plan-template.md`
+- Weekly plans: `gro-weekly-plan-YYYY-MM-DD.md` (e.g., `gro-weekly-plan-2026-01-27.md`)
+- Date represents the Monday of the planning week
+
+**Planning Cadence:**
+- Create plan: End of previous week or Monday morning
+- Daily updates: Adjust in standups as needed
+- Retrospective: End of week to review completion and learnings
+
 ### Jira Ticket Standards
 
 **Ticket Naming Convention:**
@@ -762,6 +788,26 @@ git push -u origin feature/JIRA-123-description
 - **Production Environment**: https://point.com
 - **Engineering Docs**: [Confluence or internal docs URL]
 - **Monitoring Dashboard**: [New Relic/Datadog URL]
+
+### Documentation Structure
+
+**Main Documentation:**
+- `docs/team-engineering-guidelines.md` - This document (comprehensive team guide)
+- `docs/kanban-planning.md` - Kanban flow management and planning framework
+- `docs/product-features.md` - Product feature catalog and dependencies
+
+**Weekly Planning:**
+- `docs/weekly-plans/gro-weekly-plan-template.md` - Reusable template for weekly planning
+- `docs/weekly-plans/gro-weekly-plan-YYYY-MM-DD.md` - Weekly work plans by date
+  - Date format: YYYY-MM-DD (Monday of the planning week)
+  - Example: `gro-weekly-plan-2026-01-27.md`
+
+**Planning Best Practices:**
+- Create weekly plan at end of previous week or Monday morning
+- Use template as starting point
+- Include: Epic focus (60%), bugs (30%), operational health (10%)
+- Document individual assignments and capacity analysis
+- Review and retrospective at end of week
 
 ### Team Members Quick Reference
 

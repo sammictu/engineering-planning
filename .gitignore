@@ -1,0 +1,13 @@
+# Jira MCP Configuration (contains sensitive API tokens)
+jira-mcp-config.json
+
+# Environment files
+.env
+.env.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

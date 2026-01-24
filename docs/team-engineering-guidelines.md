@@ -68,6 +68,7 @@ We have two primary product teams:
   - **David Conger** - Backend development (PQ, Marketing, Partner BE, Partner API, BE spikes)
   - **Robert Cox** - Design, frontend development lead (CP, Design spikes)
   - **Richard Collins** - Full-stack frontend development (Partner FE, CP, HOS, API-Schemas, FE spikes)
+  - **Tomas Herrera** - Full-stack (joined Nov 2025, senior engineer)
 
 **Engagement Team (CE)**
 - **Focus**: Customer engagement, user experience, customer journey optimization
@@ -76,7 +77,6 @@ We have two primary product teams:
 - **Team Members**:
   - **Dylan Oliver** - Frontend, team lead
   - **Robert Cox** - Design, frontend development lead (CP, Design spikes)
-  - **Tomas Herrera** - Full-stack (joined Nov 2025, senior engineer)
   - **Daniel Cardenas** - Full-stack, frontend-heavy (joined Jan 2026)
 
 **Cross-Team Staff Engineer**:
@@ -914,11 +914,11 @@ git push -u origin feature/JIRA-123-description
 - David Conger - Backend (PQ, Marketing, Partner BE, Partner API)
 - Robert Cox - Design + Frontend lead (CP, Design) *[also CE]*
 - Richard Collins - Full-stack Frontend (Partner FE, CP, HOS)
+- Tomas Herrera - Full-stack (senior, joined Nov 2025)
 
 **Engagement Team (CE):**
 - Dylan Oliver - Frontend, team lead
 - Robert Cox - Design + Frontend lead (CP, Design) *[also GRO]*
-- Tomas Herrera - Full-stack (senior, joined Nov 2025)
 - Daniel Cardenas - Full-stack, frontend-heavy (joined Jan 2026)
 
 **Cross-Team Staff Engineer:**

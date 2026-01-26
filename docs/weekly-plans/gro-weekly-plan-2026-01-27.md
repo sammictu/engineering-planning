@@ -2,7 +2,7 @@
 
 **Week of:** January 27, 2026
 **Team:** Growth (GRO)
-**Team Size:** 3 engineers (David, Robert, Richard)
+**Team Size:** 4 engineers (David, Robert, Richard, Tomas)
 
 ---
 
@@ -38,17 +38,14 @@
 ---
 
 ### David Conger (Backend)
-**Primary Focus:** GRO-1211 backend support + Bug fixes + Operational health
-
-**Finish:**
-- Any carryover backend work for GRO-1211
+**Primary Focus:** Bug fixes + Operational health
 
 **New Work - Bug Fixes:**
 - Review and prioritize critical bugs from backlog
 - Focus on PQ, HOS, Marketing, Partner BE issues
+- Prioritize based on customer impact
 
-**New Work - Epic Support:**
-- Backend tasks for GRO-1211 (Self-Serve Updated Estimates)
+**New Work - Prep:**
 - Support for GRO-1246 prep work if needed
 
 **Operational:**
@@ -60,7 +57,7 @@
   - Identify missing context in error logs
   - Plan log level improvements
 
-**Estimated Load:** 3-4 bug fixes + 2 operational tasks + epic support
+**Estimated Load:** 3-4 bug fixes + 2 operational tasks
 
 ---
 
@@ -82,6 +79,7 @@
 **Code Review Support:**
 - Review PRs to unblock pipeline
 - Support Richard and David with FE reviews
+- **Available to support GRO-1211 (Self-Serve Updated Estimates) if needed to meet 1/29 deadline**
 
 **Operational:**
 - BugSnag: Review design-related errors (CSS, responsive issues) if time allows
@@ -90,16 +88,37 @@
 
 ---
 
+### Tomas Herrera (Full-stack)
+**Primary Focus:** "What You Get" section + Customer-facing bugs
+
+**New Work:**
+- Work on "What You Get" section implementation
+- Full-stack work (frontend and backend as needed)
+
+**New Work - Bug Fixes:**
+- Critical customer-facing bugs from backlog
+- Prioritize based on customer impact
+- Focus on PQ, HOS, Partner BE/FE issues
+
+**Code Review Support:**
+- Review PRs to unblock pipeline
+- Provide senior engineer perspective on architecture decisions
+
+**Estimated Load:** 2-4 tickets (What You Get section + customer-facing bugs)
+
+---
+
 ## 📊 Summary by Focus Area
 
 **Primary Epic (GRO-1211 - Self-Serve Updated Estimates):** 60% of capacity **⚠️ MUST SHIP 1/29**
-- Richard: Continuing frontend work (6-7 tickets in flight)
-- David: Backend support for Self-Serve Updated Estimates
+- Richard: Continuing frontend work (6-7 tickets in flight) - **ONLY engineer on GRO-1211**
+- Robert: Available to support if needed
 - **Goal: COMPLETE AND SHIP by 1/29 - CRITICAL DEADLINE**
 
 **Critical Bugs:** 30% of capacity
 - David: 3-4 critical customer-facing bugs from backlog
-- Focus on PQ, HOS, Partner BE issues
+- Tomas: "What You Get" section implementation + customer-facing bugs (2-4 tickets)
+- Focus on PQ, HOS, Partner BE/FE issues
 - Prioritize based on customer impact
 
 **Operational Health (NEW - GRO-1271):** 10% of capacity
@@ -189,37 +208,44 @@
 5. Design work timing dependent on product requirements clarity
 
 **Mitigation:**
-- **GRO-1211 MUST be top priority for entire team - all hands on deck if needed**
+- **GRO-1211 MUST be top priority - Richard is sole owner, Robert available as backup**
 - **Daily check-ins on GRO-1211 progress - escalate blockers immediately**
 - Richard: Focus on finishing GRO-1211 tickets first, defer operational work if needed
-- David: Prioritize GRO-1211 backend support, bugs can be pushed if necessary
+- Robert: Available to jump in on GRO-1211 if Richard is blocked or behind schedule
+- David: Continue with bugs and operational health, ready to context switch if GRO-1211 needs backend support
+- Tomas: Focus on "What You Get" section and bugs, can help with GRO-1211 reviews if needed
 - Timebox operational work strictly (4-6 hours total for team) - defer if conflicts with 1/29 deadline
-- Robert: Support GRO-1211 with reviews and design clarifications as highest priority
-- Daily standups: Check capacity and adjust priorities as needed
+- Daily standups: Check GRO-1211 progress and adjust priorities as needed
 
 ---
 
 ## 📈 Capacity Analysis
 
-**Growth Team Size:** 3 engineers
+**Growth Team Size:** 4 engineers
 
 **Richard:**
 - 6-7 tickets in flight (GRO-1211 - Self-Serve Updated Estimates - **MUST SHIP 1/29**)
+- **ONLY engineer working on GRO-1211**
 - 1 operational task (BugSnag audit - 2 hours) - defer if conflicts with 1/29 deadline
 - **Status:** At or near capacity - GRO-1211 is top priority
 
 **David:**
-- 3-4 bug fixes (can be deferred if conflicts with GRO-1211)
-- GRO-1211 backend support (**MUST SHIP 1/29**)
-- 2 operational tasks (BugSnag audit - 2 hours, Log audit - 1-2 hours) - defer if conflicts with 1/29 deadline
-- **Status:** Full capacity - GRO-1211 is top priority
+- 3-4 bug fixes (customer-facing issues)
+- 2 operational tasks (BugSnag audit - 2 hours, Log audit - 1-2 hours)
+- **Status:** Full capacity - bug fixes and operational health focus
+
+**Tomas:**
+- 2-4 tickets ("What You Get" section implementation + customer-facing bugs)
+- Code review support
+- **Status:** Full capacity - feature work and critical bugs
 
 **Robert:**
 - 1-2 design tickets (GRO-1246 - Follow Up Work with Self Serve Estimate, potentially GRO-1189 - Upgrade to React 19)
 - Code review support (prioritize GRO-1211 reviews)
-- **Status:** Good capacity, focus on GRO-1211 support and design deliverables
+- Available to support GRO-1211 if needed for 1/29 deadline
+- **Status:** Good capacity, focus on design deliverables and availability for GRO-1211 support
 
-**Total:** ~12-15 work items + operational health tasks
+**Total:** ~14-18 work items + operational health tasks
 
 ---
 

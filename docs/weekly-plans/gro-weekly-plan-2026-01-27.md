@@ -64,12 +64,17 @@
 ---
 
 ### Robert Cox (Design + Frontend)
-**Primary Focus:** Design work for GRO-1246 (Follow Up Work with Self Serve Estimate) + Frontend support
+**Primary Focus:** Design work for GRO-1269 (Increase HELOC Opt-In Rate) + GRO-1246 (Follow Up Work with Self Serve Estimate) + Frontend support
 
 **Current:**
 - Complete any in-flight design work
 
 **New Work:**
+- GRO-1269 (Increase HELOC Opt-In Rate): [Design] Design work for growth priority epic
+  - Create Figma designs
+  - User flow documentation
+  - Conversion optimization mockups
+  - Collaborate with team on requirements
 - GRO-1246 (Follow Up Work with Self Serve Estimate): [Design] Design work for upcoming epic
   - Create Figma designs
   - User flow documentation
@@ -136,8 +141,9 @@
   - Plan structured logging improvements
 
 **Prep Work:** 5-10% of capacity
+- Robert: Design for GRO-1269 (Increase HELOC Opt-In Rate) - **Priority epic**
 - Robert: Design for GRO-1246 (Follow Up Work with Self Serve Estimate)
-- Team: Planning discussions for GRO-1189 (Upgrade to React 19) and GRO-1269 (Increase HELOC Opt-In Rate)
+- Team: Planning discussions for GRO-1189 (Upgrade to React 19)
 
 ---
 
@@ -149,6 +155,7 @@
 - [ ] Fix critical customer-facing bugs: GRO-1129 (email case-sensitivity), GRO-1186 (UTM parameters), GRO-1192 (cash calculation)
 - [ ] Complete BugSnag error audit (GRO-1272)
 - [ ] Complete log audit (GRO-1274)
+- [ ] Design work for GRO-1269 (Increase HELOC Opt-In Rate) started - **Priority epic**
 - [ ] Design work for GRO-1246 (Follow Up Work with Self Serve Estimate) started
 
 **Stretch Goals:**
@@ -243,10 +250,10 @@
 - **Status:** Full capacity - feature work and critical bugs
 
 **Robert:**
-- 1-2 design tickets (GRO-1246 - Follow Up Work with Self Serve Estimate, potentially GRO-1189 - Upgrade to React 19)
+- 2-3 design tickets (GRO-1269 - Increase HELOC Opt-In Rate [Priority], GRO-1246 - Follow Up Work with Self Serve Estimate)
 - Code review support (prioritize GRO-1211 reviews)
 - Available to support GRO-1211 if needed for 1/29 deadline
-- **Status:** Good capacity, focus on design deliverables and availability for GRO-1211 support
+- **Status:** Good capacity, focus on GRO-1269 and GRO-1246 design deliverables and availability for GRO-1211 support
 
 **Total:** ~14-18 work items + operational health tasks
 
@@ -265,6 +272,7 @@
 - Bugs: GRO-1129, GRO-1186, GRO-1192 resolved (+ additional critical bugs if identified)
 - BugSnag: Top 20 errors categorized, action plan created (GRO-1272)
 - Logs: Audit complete with improvement recommendations (GRO-1274)
+- Design: GRO-1269 (Increase HELOC Opt-In Rate) Figma designs in progress - **Priority epic**
 - Design: GRO-1246 (Follow Up Work with Self Serve Estimate) Figma designs in progress
 
 **Key Links:**

@@ -41,7 +41,9 @@
 **Primary Focus:** Bug fixes + Operational health
 
 **New Work - Bug Fixes:**
-- Review and prioritize critical bugs from backlog
+- GRO-1129: [PQ] Email lookup is case-sensitive, creating duplicate customers (PR in progress)
+- GRO-1186: UTM parameters are not populated correctly (backlog)
+- Review and prioritize additional critical bugs from backlog
 - Focus on PQ, HOS, Marketing, Partner BE issues
 - Prioritize based on customer impact
 
@@ -96,7 +98,8 @@
 - Full-stack work (frontend and backend as needed)
 
 **New Work - Bug Fixes:**
-- Critical customer-facing bugs from backlog
+- GRO-1192: [CP] "Cash to you" amount only reflects fees, not debt payoff (customer-facing calculation error)
+- Additional critical customer-facing bugs from backlog
 - Prioritize based on customer impact
 - Focus on PQ, HOS, Partner BE/FE issues
 
@@ -116,9 +119,9 @@
 - **Goal: COMPLETE AND SHIP by 1/29 - CRITICAL DEADLINE**
 
 **Critical Bugs:** 30% of capacity
-- David: 3-4 critical customer-facing bugs from backlog
-- Tomas: "What You Get" section implementation + customer-facing bugs (2-4 tickets)
-- Focus on PQ, HOS, Partner BE/FE issues
+- David: GRO-1129 (email case-sensitivity), GRO-1186 (UTM parameters), + 1-2 additional bugs
+- Tomas: "What You Get" section implementation + GRO-1192 (cash calculation) + 1-2 additional bugs
+- Focus on PQ, HOS, CP, Partner BE/FE issues
 - Prioritize based on customer impact
 
 **Operational Health (NEW - GRO-1271):** 10% of capacity
@@ -143,7 +146,7 @@
 **Must Complete:**
 - [ ] **⚠️ CRITICAL: Ship GRO-1211 (Self-Serve Updated Estimates) to production by 1/29 - CANNOT MISS**
 - [ ] **Complete all mandatory sign-offs for GRO-1275 ([Release Plan] for GRO-1211): QA and Analytics**
-- [ ] Fix 3-4 critical customer-facing bugs
+- [ ] Fix critical customer-facing bugs: GRO-1129 (email case-sensitivity), GRO-1186 (UTM parameters), GRO-1192 (cash calculation)
 - [ ] Complete BugSnag error audit (GRO-1272)
 - [ ] Complete log audit (GRO-1274)
 - [ ] Design work for GRO-1246 (Follow Up Work with Self Serve Estimate) started
@@ -230,12 +233,12 @@
 - **Status:** At or near capacity - GRO-1211 is top priority
 
 **David:**
-- 3-4 bug fixes (customer-facing issues)
+- 3-4 bug fixes: GRO-1129 (email case-sensitivity), GRO-1186 (UTM parameters), + additional customer-facing issues
 - 2 operational tasks (BugSnag audit - 2 hours, Log audit - 1-2 hours)
 - **Status:** Full capacity - bug fixes and operational health focus
 
 **Tomas:**
-- 2-4 tickets ("What You Get" section implementation + customer-facing bugs)
+- 2-4 tickets: "What You Get" section + GRO-1192 (cash calculation) + additional customer-facing bugs
 - Code review support
 - **Status:** Full capacity - feature work and critical bugs
 
@@ -259,9 +262,9 @@
 **Success Metrics:**
 - **⚠️ CRITICAL: GRO-1211 (Self-Serve Updated Estimates) FULLY SHIPPED to production by 1/29**
 - **Release Plan (GRO-1275): All mandatory sign-offs completed (QA, Analytics)**
-- Bugs: 3-4 critical bugs resolved
-- BugSnag: Top 20 errors categorized, action plan created
-- Logs: Audit complete with improvement recommendations
+- Bugs: GRO-1129, GRO-1186, GRO-1192 resolved (+ additional critical bugs if identified)
+- BugSnag: Top 20 errors categorized, action plan created (GRO-1272)
+- Logs: Audit complete with improvement recommendations (GRO-1274)
 - Design: GRO-1246 (Follow Up Work with Self Serve Estimate) Figma designs in progress
 
 **Key Links:**

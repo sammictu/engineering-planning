@@ -261,12 +261,14 @@ We create weekly work plans to organize team capacity and priorities:
 
 ### Jira Ticket Standards
 
+**Source:** [JIRA Standard - Confluence](https://pointdf.atlassian.net/wiki/spaces/engineering/pages/63406251/JIRA+Standard)
+
 **Ticket Naming Convention:**
 
 When possible, use brackets in the ticket title to indicate the repo or task type. This aids in ticket assignment and tracking:
 
-- **[Design]** - FE UI design work (MUST INCLUDE Figma)
-- **[CP]** - Customer Portal (Prequal and customer dashboard FE) (MUST INCLUDE Figma)
+- **[Design]** - FE UI design work - **MUST INCLUDE Figma**
+- **[CP]** - Customer Portal (Prequal and customer dashboard FE) - **MUST INCLUDE Figma**
 - **[PQ]** - Ruby on Rails Prequalification and Partner API BE
 - **[HOS]** - Homeowner Service (customer dashboard BE)
 - **[Marketing]** - Ruby on Rails app for marketing-related config such as Direct Mail
@@ -278,9 +280,9 @@ When possible, use brackets in the ticket title to indicate the repo or task typ
 
 | Size | Definition | Characteristics | Examples |
 |------|-----------|-----------------|----------|
-| **1 (Small)** | Fast-flow item | Single, contained change; one component or service; very low risk; minimal testing; should move quickly | Copy or UI tweak; simple bug fix; config or flag update; logging |
-| **2 (Medium)** | Normal-flow item | Multiple related changes; some logic or validation; touches more than one layer; light integration testing; well understood, common pattern | Add field with validation; FE + BE change; bug needing some investigation |
-| **3 (Large – Max)** | Upper limit for flow | Multiple steps or components; edge cases or error handling; cross-service integration; moderate risk; still expected to flow | New endpoint + UI wiring; non-trivial refactor; feature with multiple acceptance criteria |
+| **1 (Small)** | Fast-flow item | Single, contained change; one component or service; very low risk; minimal testing; should move quickly | Copy or UI tweak; simple bug fix; config or flag update; logging<br>*Example: CE-3971 - Add more traceability to the auth flow* |
+| **2 (Medium)** | Normal-flow item | Multiple related changes; some logic or validation; touches more than one layer; light integration testing; well understood, common pattern | Add field with validation; FE + BE change; bug needing some investigation<br>*Example: CE-3970 - [UW] Create Underwrite API Endpoint to fetch docket based on Last Name + Phone* |
+| **3 (Large – Max)** | Upper limit for flow | Multiple steps or components; edge cases or error handling; cross-service integration; moderate risk; still expected to flow | New endpoint + UI wiring; non-trivial refactor; feature with multiple acceptance criteria<br>*Example: CE-3979 - [PDS] Update Storybook to v10* |
 
 ### Kanban Hard Rules
 
@@ -288,7 +290,6 @@ When possible, use brackets in the ticket title to indicate the repo or task typ
 |------|-------------|
 | **Max size** | Any work larger than 3 must be broken down |
 | **Epics** | Epics are never sized |
-| **No subtasks** | Use stories only, never subtasks |
 | **Unknowns** | If scope is unclear, split or spike first |
 | **Flow focus** | Size for throughput and cycle time, not commitment |
 
@@ -309,10 +310,13 @@ When possible, use brackets in the ticket title to indicate the repo or task typ
 ### Ready-to-Pull Checklist (Kanban)
 
 Before pulling a ticket into In Progress, ensure:
-- [ ] Acceptance criteria written
-- [ ] Dependencies identified or removed
-- [ ] Size is 1, 2, or 3
-- [ ] Work can move without waiting
+
+| Requirement |
+|-------------|
+| Acceptance criteria written |
+| Dependencies identified or removed |
+| Size is 1, 2, or 3 |
+| Work can move without waiting |
 
 ### T-Shirt Size (Epic Level)
 

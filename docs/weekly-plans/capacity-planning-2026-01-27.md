@@ -222,7 +222,6 @@ If capacity constraints arise during the week:
 1. Defer follow-up work prep to next week (Daniel)
 2. Focus Dylan and Daniel on Login SMS + High priority bugs only
 3. Defer Medium priority bugs (CE-3923, CE-3925, CE-3926) if needed
-4. Pratheesh can shift more time to CE if GRO architecture can wait
 
 ### If Login SMS unblocked early:
 1. Pratheesh shifts immediately to Login SMS implementation (primary owner)

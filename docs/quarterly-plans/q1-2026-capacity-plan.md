@@ -534,10 +534,11 @@
 
 ### For Q2 Planning:
 
-1. **Hire Additional Staff Engineer for GRO:**
-   - GRO team lost Pratheesh capacity (previously 40% GRO)
-   - Support GRO architecture needs without Pratheesh
-   - Timeline: Start recruiting in February, onboard in Q2
+1. **Growth Team Hiring (In Progress):**
+   - **Full-stack Engineer:** Actively hiring to expand GRO capacity
+   - **Junior Engineer:** Actively hiring to support GRO team growth
+   - **Context:** GRO team lost Pratheesh capacity (previously 40% GRO, now 100% CE)
+   - **Timeline:** Recruiting in progress, expected onboarding Q2 2026
 
 2. **Hire Additional Designer (if budget allows):**
    - Reduce Robert overload across GRO and CE

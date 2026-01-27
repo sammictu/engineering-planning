@@ -39,19 +39,19 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 | Issue | Title | Status | Assignee | Suggested Size | Rationale |
 |-------|-------|--------|----------|----------------|-----------|
-| [GRO-1267](https://pointdf.atlassian.net/browse/GRO-1267) | [CP] Instrument Posthog | OPEN | Unassigned | 2 | Analytics integration, FE work |
+| [GRO-1267](https://pointdf.atlassian.net/browse/GRO-1267) | [CP] Instrument Posthog | OPEN | | 2 | Analytics integration, FE work |
 | [GRO-1235](https://pointdf.atlassian.net/browse/GRO-1235) | [QA] Add E2E test(s) for automatic offer creation | OPEN | SungMin Hong | 2 | QA automation, multiple flows |
 | [GRO-1226](https://pointdf.atlassian.net/browse/GRO-1226) | [UW] Show offer amounts on estimate tasks | OPEN | Christopher Nsimbe | 2 | BE + UW integration |
-| [GRO-1282](https://pointdf.atlassian.net/browse/GRO-1282) | Slack msg "HO has requested new offer" still sent | BACKLOG | Unassigned | 1 | Notification bug, contained |
-| [GRO-1276](https://pointdf.atlassian.net/browse/GRO-1276) | Minor Text issue on Request Complete modal | BACKLOG | Unassigned | 1 | Copy fix, trivial |
+| [GRO-1282](https://pointdf.atlassian.net/browse/GRO-1282) | Slack msg "HO has requested new offer" still sent | BACKLOG | | 1 | Notification bug, contained |
+| [GRO-1276](https://pointdf.atlassian.net/browse/GRO-1276) | Minor Text issue on Request Complete modal | BACKLOG | | 1 | Copy fix, trivial |
 
 ### CE Bugs (Week of 1/27 - Per Capacity Plan)
 
 | Issue | Title | Status | Priority | Assignee | Suggested Size | Rationale |
 |-------|-------|--------|----------|----------|----------------|-----------|
 | [CE-3865](https://pointdf.atlassian.net/browse/CE-3865) | HO Funding date showing past date | OPEN | High | Robert Cox | 2-3 | Data sync issue, needs investigation |
-| [CE-3923](https://pointdf.atlassian.net/browse/CE-3923) | Docket duplicate logic fails with space/hyphen | OPEN | Medium | Unassigned | 2 | Logic fix, multiple edge cases |
-| [CE-3925](https://pointdf.atlassian.net/browse/CE-3925) | HO name is blank in HO application | BACKLOG | Medium | Unassigned | 1 | Data mapping fix, contained |
+| [CE-3923](https://pointdf.atlassian.net/browse/CE-3923) | Docket duplicate logic fails with space/hyphen | OPEN | Medium | | 2 | Logic fix, multiple edge cases |
+| [CE-3925](https://pointdf.atlassian.net/browse/CE-3925) | HO name is blank in HO application | BACKLOG | Medium | | 1 | Data mapping fix, contained |
 | [CE-3926](https://pointdf.atlassian.net/browse/CE-3926) | HO Dashboard timeline messaging incorrect | BACKLOG | Medium | Josh Hohman | 1-2 | Conditional logic fix |
 
 ---
@@ -160,14 +160,14 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 | [GRO-1236](https://pointdf.atlassian.net/browse/GRO-1236) | 2 | Richard Collins |
 | [GRO-1225](https://pointdf.atlassian.net/browse/GRO-1225) | 2 | Richard Collins |
 | [GRO-1279](https://pointdf.atlassian.net/browse/GRO-1279) | 1 | Robert Cox |
-| [GRO-1267](https://pointdf.atlassian.net/browse/GRO-1267) | 2 | *Unassigned* |
+| [GRO-1267](https://pointdf.atlassian.net/browse/GRO-1267) | 2 | |
 | [GRO-1235](https://pointdf.atlassian.net/browse/GRO-1235) | 2 | SungMin Hong |
 | [GRO-1226](https://pointdf.atlassian.net/browse/GRO-1226) | 2 | Christopher Nsimbe |
-| [GRO-1282](https://pointdf.atlassian.net/browse/GRO-1282) | 1 | *Unassigned* |
-| [GRO-1276](https://pointdf.atlassian.net/browse/GRO-1276) | 1 | *Unassigned* |
+| [GRO-1282](https://pointdf.atlassian.net/browse/GRO-1282) | 1 | |
+| [GRO-1276](https://pointdf.atlassian.net/browse/GRO-1276) | 1 | |
 | [CE-3865](https://pointdf.atlassian.net/browse/CE-3865) | 2 | Robert Cox |
-| [CE-3923](https://pointdf.atlassian.net/browse/CE-3923) | 2 | *Unassigned* |
-| [CE-3925](https://pointdf.atlassian.net/browse/CE-3925) | 1 | *Unassigned* |
+| [CE-3923](https://pointdf.atlassian.net/browse/CE-3923) | 2 | |
+| [CE-3925](https://pointdf.atlassian.net/browse/CE-3925) | 1 | |
 | [CE-3926](https://pointdf.atlassian.net/browse/CE-3926) | 1 | Josh Hohman |
 
 ---

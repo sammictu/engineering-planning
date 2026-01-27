@@ -27,36 +27,35 @@
 
 | Engineer | Primary Focus | Workload | Capacity Status |
 |----------|--------------|----------|-----------------|
-| **Dylan Oliver** | Login SMS + 2 bugs (CE-3865, CE-3926) | 4-6 tickets | **Full capacity** |
-| **Daniel Cardenas** | Login SMS + 2 bugs + follow-up prep | 4-5 tickets | **Full capacity** |
-| **Pratheesh Harikumar** | CE-3946 (High) + Architecture + GRO support | 3-4 tickets | **⚠️ Shared with GRO** |
+| **Dylan Oliver** | Login SMS support + 2 bugs (CE-3865, CE-3926) | 4-6 tickets | **Full capacity** |
+| **Daniel Cardenas** | Login SMS support + 2 bugs + follow-up prep | 4-5 tickets | **Full capacity** |
+| **Pratheesh Harikumar** | Login SMS implementation (owner) + Architecture | 2-3 tickets | **⚠️ BLOCKED on Twilio** |
 
-**Key Deliverables:** Login SMS completion + 5 customer-facing bugs
+**Key Deliverables:** Login SMS technical design (blocked on Twilio) + 4 customer-facing bugs
+**Note:** CE-3946 (Dashboard loop) has been resolved
 
 ---
 
 ## 🔄 Shared Resources Analysis
 
 ### Pratheesh Harikumar (Staff Engineer)
-**Status:** Shared between GRO and CE
+**Status:** Fully allocated to Engagement for Q1 2026
 
-**GRO Commitments:**
-- Staff-level technical guidance for GRO initiatives
-- Architecture review and mentorship
-- Code reviews for complex PRs
-- **Time allocation:** ~40-50% (16-20 hours)
-
-**CE Commitments:**
-- CE-3946: HO unable to access dashboard (High priority) - **Customer-blocking**
+**CE Commitments (100%):**
+- Login SMS implementation (primary owner) - **Currently BLOCKED on Twilio approval**
+- Backend work: XS scope
+- Frontend work: S scope
 - Architecture planning for follow-up work
 - Technical leadership and mentorship
 - Code reviews for complex PRs
-- **Time allocation:** ~50-60% (20-24 hours)
+- **Time allocation:** 100% (40 hours/week)
 
 **Capacity Risk:**
-- ⚠️ **High risk**: Pratheesh is critical path for CE-3946 (High priority bug)
-- **Mitigation:** CE-3946 takes priority this week due to customer impact
-- **Coordination needed:** Daily sync between GRO and CE leads on Pratheesh's priorities
+- ⚠️ **High risk**: Login SMS BLOCKED on Twilio approval (3-week SLA, submitted week of Jan 18)
+- **Mitigation:** Focus on technical design and preparation while blocked
+- **Action:** Monitor Twilio approval daily, implement immediately when unblocked
+
+**Note:** CE-3946 (Dashboard loop bug) has been resolved
 
 ---
 
@@ -95,12 +94,12 @@
 - **Total: ~16-21 work items**
 
 **Engagement Team (CE):**
-- Login SMS: Unknown # of tickets (Dylan, Daniel - scope TBD)
-- Bug fixes: 5 tickets (CE-3865, CE-3946, CE-3923, CE-3925, CE-3926)
+- Login SMS: Unknown # of tickets (Pratheesh owner, Dylan/Daniel support - BLOCKED on Twilio)
+- Bug fixes: 4 tickets (CE-3865, CE-3923, CE-3925, CE-3926) - CE-3946 resolved
 - Follow-up prep: Planning and requirements gathering (Daniel, Pratheesh)
-- **Total: ~11-15 work items**
+- **Total: ~10-14 work items**
 
-**Combined Total: ~27-36 work items across 7 engineers**
+**Combined Total: ~26-35 work items across 7 engineers**
 
 ---
 
@@ -118,30 +117,29 @@
      - Defer Richard's operational work (BugSnag audit) if needed
      - Escalate blockers immediately to team lead
 
-2. **⚠️ Pratheesh Capacity Split (GRO + CE)**
+2. **⚠️ Login SMS Blocked on Twilio Approval (CE)**
    - **Risk Level:** HIGH
-   - **Conflict:** CE-3946 (High priority bug) vs. GRO architecture needs
+   - **Issue:** Pratheesh cannot implement Login SMS until Twilio approval received
+   - **Status:** 3-week SLA, submitted week of Jan 18, 2026
    - **Mitigation:**
-     - CE-3946 takes priority this week (customer-blocking)
-     - Communicate capacity daily between GRO and CE leads
-     - Document capacity split: ~50-60% CE, ~40-50% GRO
-     - Adjust GRO architecture work if CE-3946 takes longer
+     - Pratheesh focuses on technical design and architecture while blocked
+     - Monitor Twilio approval status daily
+     - Ready to implement immediately when approval received
+     - Use blocked time for follow-up work architecture and planning
 
-3. **⚠️ Login SMS Scope Unknown (CE)**
-   - **Risk Level:** MEDIUM
-   - **Issue:** Unknown number of remaining Login SMS tickets
-   - **Mitigation:**
-     - Dylan to audit and document all remaining work immediately (Monday)
-     - If scope is large, defer follow-up prep work to next week
-     - Prioritize bugs over follow-up prep if needed
+3. **⚠️ CE-3946 Resolved**
+   - **Status:** ✅ RESOLVED
+   - **Note:** CE-3946 (Dashboard loop - High priority bug) has been resolved
+   - **Impact:** Reduces CE bug count from 5 to 4, frees up capacity
 
 4. **⚠️ Multiple Customer-Facing Bugs (Both Teams)**
    - **Risk Level:** MEDIUM
-   - **Issue:** 8 total customer-facing bugs across both teams (3 GRO, 5 CE)
+   - **Issue:** 7 total customer-facing bugs across both teams (3 GRO, 4 CE)
    - **Mitigation:**
-     - Prioritize High priority bugs first: CE-3865, CE-3946
+     - Prioritize High priority bugs first: CE-3865
      - David and Daniel focus on Medium priority bugs
      - Daily review of bug dashboard for new escalations
+     - CE-3946 resolved, reducing bug count
 
 ---
 
@@ -154,8 +152,8 @@
 - Critical bugs: GRO-1129, GRO-1186, GRO-1192 - David, Tomas (20% of GRO capacity)
 
 **CE:**
-- Login SMS completion - Dylan, Daniel (40% of CE capacity)
-- High priority bugs: CE-3865, CE-3946 - Dylan, Pratheesh (20% of CE capacity)
+- Login SMS technical design (BLOCKED on Twilio) - Pratheesh (owner), Dylan, Daniel (40% of CE capacity)
+- High priority bugs: CE-3865 - Dylan (10% of CE capacity)
 
 ### Important Work (Should Complete - 20% capacity)
 
@@ -164,8 +162,8 @@
 - Design work: GRO-1269, GRO-1246 - Robert
 
 **CE:**
-- Medium priority bugs: CE-3923, CE-3925, CE-3926 - Daniel, Dylan
-- Follow-up work prep - Daniel, Pratheesh
+- Medium priority bugs: CE-3923, CE-3925, CE-3926 - Daniel, Dylan (20% of CE capacity)
+- Follow-up work prep - Daniel, Pratheesh (20% of CE capacity)
 
 ### Operational/Nice-to-Have (10% capacity)
 
@@ -182,15 +180,16 @@
 ## 📅 Daily Capacity Checkpoints
 
 ### Monday (Jan 27)
+- [ ] Pratheesh: Begin Login SMS technical design and architecture (while blocked on Twilio)
+- [ ] Pratheesh: Check Twilio approval status
 - [ ] Dylan: Audit and document all remaining Login SMS tickets
-- [ ] Pratheesh: Document capacity split between GRO and CE teams
 - [ ] Richard: GRO-1211 progress check - identify any blockers
 - [ ] Dylan: Coordinate with Josh Hohman on CE-3865 and CE-3926 handoff
 
 ### Tuesday (Jan 28)
 - [ ] Richard: GRO-1211 progress check - escalate if behind schedule
-- [ ] Pratheesh: CE-3946 progress check
-- [ ] Team leads: Review capacity split for Pratheesh based on CE-3946 complexity
+- [ ] Pratheesh: Login SMS design review with team
+- [ ] Pratheesh: Check Twilio approval status
 
 ### Wednesday (Jan 29) - **GRO-1211 DEADLINE**
 - [ ] Richard: GRO-1211 MUST be complete and shipped to production
@@ -225,11 +224,11 @@ If capacity constraints arise during the week:
 3. Defer Medium priority bugs (CE-3923, CE-3925, CE-3926) if needed
 4. Pratheesh can shift more time to CE if GRO architecture can wait
 
-### If Pratheesh is overloaded:
-1. CE-3946 (High priority bug) takes absolute priority
-2. Dylan or Daniel can take on simpler architecture tasks
-3. GRO team can defer non-critical architecture discussions
-4. Code reviews can be distributed to other senior engineers
+### If Login SMS unblocked early:
+1. Pratheesh shifts immediately to Login SMS implementation (primary owner)
+2. Dylan and Daniel provide frontend support
+3. Defer follow-up work prep if needed to complete Login SMS
+4. Dylan can help coordinate with QA for Login SMS testing
 
 ---
 
@@ -243,14 +242,16 @@ If capacity constraints arise during the week:
 - ✅ Critical bugs resolved: GRO-1129, GRO-1186, GRO-1192
 
 **CE:**
-- ✅ Login SMS work completed
-- ✅ High priority bugs resolved: CE-3865, CE-3946
-- ✅ 3/5 bugs resolved (at minimum)
+- ✅ Login SMS technical design complete (while blocked on Twilio)
+- ✅ High priority bugs resolved: CE-3865
+- ✅ 3/4 bugs resolved (at minimum)
+- ✅ CE-3946 (Dashboard loop) - ALREADY RESOLVED
 
 **Capacity Health:**
-- ✅ Pratheesh capacity balanced between GRO and CE
+- ✅ Pratheesh fully allocated to CE for Q1 2026
 - ✅ No engineer over 110% capacity
 - ✅ Robert focused on GRO priorities (minimal CE distraction)
+- ✅ Login SMS design work progressing despite Twilio block
 
 ---
 
@@ -264,15 +265,16 @@ If capacity constraints arise during the week:
 
 **Challenges:**
 - Richard is sole engineer on GRO-1211 (critical 1/29 deadline) - single point of failure
-- Pratheesh split between two teams - potential bottleneck
-- Login SMS scope unknown - could impact CE capacity
-- 8 total customer-facing bugs across teams - high volume
+- Login SMS BLOCKED on Twilio approval - external dependency
+- Login SMS scope unknown - could impact CE capacity when unblocked
+- 7 total customer-facing bugs across teams - high volume (CE-3946 resolved)
 
 **Recommendations for Next Week:**
 - Avoid scheduling new critical work during week with hard deadlines
 - Consider pairing on critical epics (avoid single-engineer ownership)
 - Complete Login SMS scope audit earlier in planning process
-- Track actual capacity split for Pratheesh to inform future planning
+- Monitor Twilio approval status daily for Login SMS unblock
+- Document Login SMS technical design for faster implementation when unblocked
 
 ---
 

@@ -16,7 +16,7 @@
 
 **Key Risks:**
 - GRO-1211 (Self-Serve Estimates) critical 1/29 deadline - single point of failure (Richard)
-- Pratheesh capacity split between GRO and CE - potential bottleneck
+- Login SMS BLOCKED on Twilio approval - external dependency blocking CE team
 - Login SMS scope unclear - may impact CE Q1 deliverables
 - React 19 upgrade scope may be larger than anticipated
 
@@ -159,10 +159,12 @@
 
 **Customer-Facing Bugs (Week of 1/27):**
 - CE-3865: HO Funding date on dashboard showing past date (High) - Dylan
-- CE-3946: HO unable to get to dashboard, stuck in loop (High) - Pratheesh
 - CE-3923: Docket duplicate logic fails with space/hyphen (Medium) - Daniel
 - CE-3925: HO name is blank in HO application (Medium) - Daniel
 - CE-3926: HO Dashboard timeline messaging incorrect (Medium) - Dylan
+
+**Resolved:**
+- ✅ CE-3946: HO unable to get to dashboard, stuck in loop (High) - RESOLVED
 
 ---
 
@@ -185,7 +187,7 @@
 | **Robert Cox** | Design + Frontend | GRO-1269 (Feb), GRO-1246 (Feb-Mar), GRO-1211 support (Jan) | Good capacity - design lead, minimal CE involvement |
 
 **Shared Resources:**
-- **Pratheesh Harikumar:** ~40-50% GRO capacity (architecture, code reviews, technical leadership)
+- **Robert Cox:** ~5% CE capacity (minimal - critical design needs only)
 
 **Q1 Capacity Allocation:**
 - **Epics:** 60% (GRO-1211, GRO-1269, GRO-1246, GRO-1189)
@@ -197,16 +199,17 @@
 
 | Skill | Total Hours/Week | Weeks Remaining | Total Remaining Hours | Committed Hours | Available Hours | Available % |
 |-------|------------------|-----------------|----------------------|-----------------|-----------------|-------------|
-| **Frontend (FE)** | 94.4 hrs | 9 weeks | 850 hrs | ~510 hrs (60% epics) | **340 hrs** | **40%** |
-| **Backend (BE)** | 81.6 hrs | 9 weeks | 734 hrs | ~440 hrs (60% epics) | **294 hrs** | **40%** |
-| **Total** | 176 hrs | 9 weeks | 1,584 hrs | ~950 hrs (60% epics) | **634 hrs** | **40%** |
+| **Frontend (FE)** | 88 hrs | 9 weeks | 792 hrs | ~475 hrs (60% epics) | **317 hrs** | **40%** |
+| **Backend (BE)** | 72 hrs | 9 weeks | 648 hrs | ~389 hrs (60% epics) | **259 hrs** | **40%** |
+| **Total** | 160 hrs | 9 weeks | 1,440 hrs | ~864 hrs (60% epics) | **576 hrs** | **40%** |
 
 **Engineer Breakdown:**
 - **Richard Collins** (Full-stack FE): 32 hrs FE, 8 hrs BE per week → **80% FE, 20% BE**
 - **David Conger** (Backend): 0 hrs FE, 40 hrs BE per week → **0% FE, 100% BE**
 - **Tomas Herrera** (Full-stack): 20 hrs FE, 20 hrs BE per week → **50% FE, 50% BE**
 - **Robert Cox** (Design + FE): 36 hrs FE, 4 hrs BE per week → **90% FE, 10% BE**
-- **Pratheesh** (Staff, 40% GRO): 6.4 hrs FE, 9.6 hrs BE per week → **40% FE, 60% BE**
+
+**Note:** Pratheesh Harikumar is fully allocated to Engagement team for Q1 2026
 
 **Committed Capacity (Jan-Mar 2026):**
 - GRO-1211 (Self-Serve Estimates): ~160 hrs (completed by 1/29)
@@ -233,8 +236,10 @@
 | **Daniel Cardenas** | Full-stack, Frontend-heavy | Login SMS (Jan), Follow-up prep (Feb), Bug fixes | Full capacity - new to team (joined Jan 2026) |
 | **Robert Cox** | Design + Frontend | Minimal CE involvement - GRO priorities take precedence | Minimal capacity - focus on GRO |
 
+**Team Members:**
+- **Pratheesh Harikumar:** 100% CE capacity for Q1 2026 (Login SMS owner, architecture, technical leadership)
+
 **Shared Resources:**
-- **Pratheesh Harikumar:** ~50-60% CE capacity (architecture, high-priority bugs, technical leadership)
 - **Robert Cox:** ~5-10% CE capacity (critical design needs only)
 
 **Q1 Capacity Allocation:**
@@ -247,29 +252,32 @@
 
 | Skill | Total Hours/Week | Weeks Remaining | Total Remaining Hours | Committed Hours | Available Hours | Available % |
 |-------|------------------|-----------------|----------------------|-----------------|-----------------|-------------|
-| **Frontend (FE)** | 79.4 hrs | 9 weeks | 715 hrs | ~358 hrs (50% epics) | **357 hrs** | **50%** |
-| **Backend (BE)** | 26.6 hrs | 9 weeks | 239 hrs | ~120 hrs (50% epics) | **119 hrs** | **50%** |
-| **Total** | 106 hrs | 9 weeks | 954 hrs | ~478 hrs (50% epics) | **476 hrs** | **50%** |
+| **Frontend (FE)** | 85.8 hrs | 9 weeks | 772 hrs | ~386 hrs (50% epics) | **386 hrs** | **50%** |
+| **Backend (BE)** | 36.2 hrs | 9 weeks | 326 hrs | ~163 hrs (50% epics) | **163 hrs** | **50%** |
+| **Total** | 122 hrs | 9 weeks | 1,098 hrs | ~549 hrs (50% epics) | **549 hrs** | **50%** |
 
 **Engineer Breakdown:**
 - **Dylan Oliver** (Frontend, Team Lead): 40 hrs FE, 0 hrs BE per week → **100% FE, 0% BE**
 - **Daniel Cardenas** (Full-stack, FE-heavy): 28 hrs FE, 12 hrs BE per week → **70% FE, 30% BE**
 - **Robert Cox** (Design + FE, 5% CE): 1.8 hrs FE, 0.2 hrs BE per week → **90% FE, 10% BE**
-- **Pratheesh** (Staff, 60% CE): 9.6 hrs FE, 14.4 hrs BE per week → **40% FE, 60% BE**
+- **Pratheesh Harikumar** (Staff, 100% CE): 16 hrs FE, 24 hrs BE per week → **40% FE, 60% BE**
+
+**Note:** Pratheesh is fully allocated to Engagement for Q1 2026 (previously shared with GRO)
 
 **Committed Capacity (Jan-Mar 2026):**
-- Login via SMS: ~200 hrs FE-heavy (Jan, pending Twilio approval)
+- Login via SMS: ~200 hrs FE-heavy (Jan, BLOCKED on Twilio approval) - Pratheesh (owner)
 - Structured Follow-up Support: ~120 hrs FE-heavy (Feb-Mar, PRD in progress)
-- HO Dashboard bugs: ~100 hrs FE-heavy (Jan-Feb, 5 customer-facing bugs)
+- HO Dashboard bugs: ~90 hrs FE-heavy (Jan-Feb, 4 customer-facing bugs) - CE-3946 resolved
 - Dashboard Status Updates: TBD (dependency on AI team)
-- Bugs + Operational: ~158 hrs (35% bugs, 10% planning, 5% reviews)
+- Bugs + Operational: ~139 hrs (35% bugs, 10% planning, 5% reviews)
 
 **Key Insights:**
-- ⚠️ **BE capacity is constrained** - Only Daniel (12 hrs) and Pratheesh (14.4 hrs) provide BE support
+- ✅ **BE capacity improved** - Daniel (12 hrs) and Pratheesh (24 hrs at 100% CE) provide better backend support
 - ✅ **FE capacity is good** - Dylan, Daniel, and Pratheesh provide solid frontend coverage
-- 🎯 **357 hrs FE available** for unplanned work, bug fixes, and operational health
-- 🎯 **119 hrs BE available** for unplanned work, bug fixes, and operational health
+- 🎯 **386 hrs FE available** for unplanned work, bug fixes, and operational health (increased from 357 hrs)
+- 🎯 **163 hrs BE available** for unplanned work, bug fixes, and operational health (increased from 119 hrs)
 - ⚠️ **Login SMS blocked** - Pending Twilio approval (3-week SLA, submitted week of 1/18)
+- 🎯 **Pratheesh 100% allocated to CE** - Dedicated backend expertise for Login SMS and architecture
 
 ---
 
@@ -294,8 +302,9 @@
 
 **Week of 1/27:** ⚠️ **CRITICAL WEEK**
 - **1/29: GRO-1211 MUST SHIP TO PRODUCTION**
-- Login SMS completion
+- Login SMS technical design (BLOCKED on Twilio approval)
 - CE Follow-up work requirements gathering
+- CE-3946 (Dashboard loop bug) resolved
 
 ---
 
@@ -367,22 +376,26 @@
   - GRO-1275 release plan sign-offs tracked closely
   - Escalate blockers immediately
 
-**2. Pratheesh Capacity Split (GRO + CE)**
+**2. Login SMS Blocked on Twilio Approval (CE)**
 - **Risk Level:** HIGH
-- **Impact:** Bottleneck for both teams, architecture decisions delayed
+- **Impact:** Pratheesh cannot implement Login SMS until external approval received
+- **Status:** 3-week SLA, submitted week of Jan 18, 2026
 - **Mitigation:**
-  - Document capacity split weekly (50-60% CE, 40-50% GRO)
-  - Prioritize CE-3946 (customer-blocking bug) in January
-  - Daily coordination between GRO and CE leads
-  - Consider hiring additional staff engineer in Q2
+  - Pratheesh focuses on technical design and architecture while blocked
+  - Monitor Twilio approval status daily
+  - Ready to implement immediately when approval received
+  - Use blocked time for follow-up work architecture and planning
+  - Note: Pratheesh is 100% allocated to CE for Q1 2026
 
 **3. Login SMS Scope Unknown (CE)**
 - **Risk Level:** MEDIUM
 - **Impact:** CE Q1 deliverables at risk, follow-up work delayed
+- **Status:** Currently blocked on Twilio approval
 - **Mitigation:**
   - Dylan to complete scope audit immediately (1/27)
   - Defer follow-up work if Login SMS scope is large
-  - Consider extending timeline into early February if needed
+  - Consider extending timeline into early February when Twilio approved
+  - Pratheesh (owner) to have technical design complete before approval
 
 **4. React 19 Upgrade Scope Uncertainty (GRO)**
 - **Risk Level:** MEDIUM
@@ -438,10 +451,13 @@
 ### Engagement Team (CE)
 
 **Epic Completion:**
-- ✅ Login SMS work completed by end of January
-- ✅ 5 customer-facing bugs resolved (CE-3865, CE-3946, CE-3923, CE-3925, CE-3926)
+- ✅ Login SMS technical design complete (pending Twilio approval for implementation)
+- ✅ 4 customer-facing bugs resolved (CE-3865, CE-3923, CE-3925, CE-3926)
 - ✅ Follow-up work requirements gathered and technical design complete
 - ✅ HO Dashboard improvements shipped by end of February
+
+**Already Completed:**
+- ✅ CE-3946: HO unable to get to dashboard, stuck in loop (High) - RESOLVED
 
 **Quality Metrics:**
 - ✅ Customer-facing bug count reduced by 40% by end of Q1
@@ -451,7 +467,7 @@
 **Team Health:**
 - ✅ Dylan successfully onboards and mentors Daniel
 - ✅ Daniel productive on CE codebase by end of Q1
-- ✅ Pratheesh capacity balanced between GRO and CE
+- ✅ Pratheesh 100% allocated to CE for Q1 2026 - dedicated technical leadership
 
 ---
 
@@ -460,20 +476,26 @@
 ### If GRO Falls Behind Schedule:
 1. Pull Robert into implementation work (reduce design capacity)
 2. Defer GRO-1189 (React 19) to Q2 entirely
-3. Pratheesh increases GRO capacity to 60-70%
-4. Tomas can shift from "What You Get" to epic support
+3. Tomas can shift from "What You Get" to epic support
+4. David can provide additional backend support if needed
 
 ### If CE Falls Behind Schedule:
 1. Defer follow-up work to Q2
 2. Focus on Login SMS and High priority bugs only
-3. Pratheesh increases CE capacity to 70-80%
-4. Robert provides minimal design support if absolutely critical
+3. Robert provides minimal design support if absolutely critical
+4. Dylan and Daniel can pick up Pratheesh's frontend work if needed
 
-### If Pratheesh Is Overloaded:
-1. CE-3946 and customer-blocking bugs take absolute priority
-2. GRO and CE leads can handle non-critical architecture discussions
+### If Pratheesh Is Overloaded (CE):
+1. Login SMS (as owner) takes absolute priority
+2. Dylan and Daniel can handle non-critical architecture discussions
 3. Distribute code reviews to other senior engineers
 4. Consider contractor or additional hire in Q2
+
+### If Login SMS Unblocked (Twilio Approval):
+1. Pratheesh shifts immediately to Login SMS implementation (100% focus)
+2. Dylan and Daniel provide frontend support
+3. Defer follow-up work prep if needed to complete Login SMS
+4. Coordinate with QA (SungMin) for testing
 
 ### If Customer-Facing Bugs Spike:
 1. Shift 10% capacity from epics to bugs immediately
@@ -489,21 +511,22 @@
 
 **Current State (Week of 1/27):**
 - GRO: 60% epic (GRO-1211), 30% bugs, 10% operational
-- CE: 40% Login SMS, 30% bugs, 20% follow-up prep, 10% reviews
+- CE: 40% Login SMS technical design (blocked on Twilio), 30% bugs, 20% follow-up prep, 10% reviews
 
 **Utilization:**
-- Richard: 110% (at risk - critical deadline)
+- Richard: 110% (at risk - critical 1/29 deadline)
 - David: 100% (full capacity)
 - Tomas: 100% (full capacity)
 - Robert: 95% (good capacity, primarily GRO)
 - Dylan: 100% (full capacity, team lead)
 - Daniel: 90% (learning curve, ramping up)
-- Pratheesh: 110% (shared across teams - at risk)
+- Pratheesh: 100% (CE only for Q1 2026, Login SMS blocked on Twilio)
 
 **Red Flags:**
-- Richard and Pratheesh over capacity
+- Richard over capacity (110% - critical 1/29 deadline)
+- Login SMS BLOCKED on Twilio approval (external dependency)
 - Login SMS scope unknown
-- 8 customer-facing bugs across teams
+- 7 customer-facing bugs across teams (CE-3946 resolved)
 
 ---
 
@@ -511,9 +534,9 @@
 
 ### For Q2 Planning:
 
-1. **Hire Additional Staff Engineer:**
-   - Reduce Pratheesh overload
-   - Support both GRO and CE architecture needs
+1. **Hire Additional Staff Engineer for GRO:**
+   - GRO team lost Pratheesh capacity (previously 40% GRO)
+   - Support GRO architecture needs without Pratheesh
    - Timeline: Start recruiting in February, onboard in Q2
 
 2. **Hire Additional Designer (if budget allows):**

@@ -15,7 +15,8 @@ This document provides guidance for kanban-based planning and continuous flow ma
 | Ready for QA | Awaiting QA testing | 5 per team | PR merged to staging, deploy successful | QA sign-off, no critical bugs |
 | QA In Progress | Active QA testing | 3 per team | QA assigned, test cases ready | All test cases passed |
 | RC | Release candidate | No limit | QA complete, ready for production | Deployed to production |
-| Done | Completed and deployed | No limit | In production, smoke tests passed | N/A |
+| Done | Work complete, in production | No limit | In production, smoke tests passed | Verified working, ready to close |
+| Released | Closed, fully shipped | No limit | Verified in production, no issues | N/A |
 
 ### Entry & Exit Criteria Details
 
@@ -101,9 +102,25 @@ This document provides guidance for kanban-based planning and continuous flow ma
 #### RC → Done
 
 **Entry Criteria (to enter Done):**
-- [ ] In production
+- [ ] Deployed to production
 - [ ] Smoke tests passed
-- [ ] Monitoring shows no issues
+- [ ] Initial monitoring shows no issues
+
+**Exit Criteria (to leave Done):**
+- [ ] Feature verified working in production
+- [ ] No critical bugs reported
+- [ ] Ready to close ticket
+
+#### Done → Released
+
+**Entry Criteria (to enter Released):**
+- [ ] Verified working in production (24-48 hrs)
+- [ ] No rollback needed
+- [ ] Stakeholders notified (if applicable)
+- [ ] Documentation updated (if applicable)
+
+**Exit Criteria:**
+- N/A (terminal state)
 
 **WIP Limit Guidelines:**
 - **In Progress:** Max 2 items per engineer to maintain focus

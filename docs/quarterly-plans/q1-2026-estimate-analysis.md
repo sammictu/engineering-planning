@@ -50,9 +50,22 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 | Issue | Title | Status | Priority | Assignee | Suggested Size | Rationale |
 |-------|-------|--------|----------|----------|----------------|-----------|
 | [CE-3865](https://pointdf.atlassian.net/browse/CE-3865) | HO Funding date showing past date | OPEN | High | Robert Cox | 2-3 | Data sync issue, needs investigation |
-| [CE-3923](https://pointdf.atlassian.net/browse/CE-3923) | Docket duplicate logic fails with space/hyphen | OPEN | Medium | | 2 | Logic fix, multiple edge cases |
+| [CE-3923](https://pointdf.atlassian.net/browse/CE-3923) | Docket duplicate logic fails with space/hyphen | OPEN | Medium | Daniel Cardenas | 2 | Logic fix, multiple edge cases |
 | [CE-3925](https://pointdf.atlassian.net/browse/CE-3925) | HO name is blank in HO application | BACKLOG | Medium | | 1 | Data mapping fix, contained |
 | [CE-3926](https://pointdf.atlassian.net/browse/CE-3926) | HO Dashboard timeline messaging incorrect | BACKLOG | Medium | Josh Hohman | 1-2 | Conditional logic fix |
+
+### CE Active Work (In Progress / Open)
+
+| Issue | Title | Status | Assignee | Suggested Size | Rationale |
+|-------|-------|--------|----------|----------------|-----------|
+| [CE-4021](https://pointdf.atlassian.net/browse/CE-4021) | [CP] Implement throttling | IN PROGRESS | Robert Cox | 2 | Rate limiting, multiple endpoints |
+| [CE-4015](https://pointdf.atlassian.net/browse/CE-4015) | [CP] Remove AuthorizedContacts feature flag | OPEN | Daniel Cardenas | 1 | Flag cleanup, contained |
+| [CE-4017](https://pointdf.atlassian.net/browse/CE-4017) | [CP] Use obscured email from otp response | OPEN | Robert Cox | 1 | API integration, contained |
+| [CE-4032](https://pointdf.atlassian.net/browse/CE-4032) | [CP] Add playwright tests for login v2 | OPEN | Robert Cox | 2 | Test work, multiple scenarios |
+| [CE-4034](https://pointdf.atlassian.net/browse/CE-4034) | [CP] Adjust Post Funding pages based on API Response | OPEN | Robert Cox | 1 | FE update, contained |
+| [CE-4024](https://pointdf.atlassian.net/browse/CE-4024) | [QA] Updates for DOB text changes | PR | Robert Cox | 1 | QA update, contained |
+| [CE-4035](https://pointdf.atlassian.net/browse/CE-4035) | Enum missing error in /dashboard | PR | Pratheesh Harikumar | 1 | Bug fix, contained |
+| [CE-4019](https://pointdf.atlassian.net/browse/CE-4019) | Update browser extension for additional fields | RC | Daniel Cardenas | 1 | Extension update, contained |
 
 ---
 
@@ -64,7 +77,8 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 | GRO-1180 (What You Get) | 1 | ~1 pt |
 | GRO Other | 5 | ~8 pts |
 | CE Bugs | 4 | ~7 pts |
-| **Total** | **14 issues** | **~22 pts** |
+| CE Active Work | 8 | ~10 pts |
+| **Total** | **22 issues** | **~32 pts** |
 
 ---
 
@@ -154,6 +168,8 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 ## Quick Reference - Points to Add
 
+### GRO Team
+
 | Issue | Points | Assignee |
 |-------|--------|----------|
 | [GRO-1280](https://pointdf.atlassian.net/browse/GRO-1280) | 1 | Richard Collins |
@@ -165,10 +181,23 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 | [GRO-1226](https://pointdf.atlassian.net/browse/GRO-1226) | 2 | Christopher Nsimbe |
 | [GRO-1282](https://pointdf.atlassian.net/browse/GRO-1282) | 1 | |
 | [GRO-1276](https://pointdf.atlassian.net/browse/GRO-1276) | 1 | |
+
+### CE Team
+
+| Issue | Points | Assignee |
+|-------|--------|----------|
 | [CE-3865](https://pointdf.atlassian.net/browse/CE-3865) | 2 | Robert Cox |
-| [CE-3923](https://pointdf.atlassian.net/browse/CE-3923) | 2 | |
+| [CE-3923](https://pointdf.atlassian.net/browse/CE-3923) | 2 | Daniel Cardenas |
 | [CE-3925](https://pointdf.atlassian.net/browse/CE-3925) | 1 | |
 | [CE-3926](https://pointdf.atlassian.net/browse/CE-3926) | 1 | Josh Hohman |
+| [CE-4021](https://pointdf.atlassian.net/browse/CE-4021) | 2 | Robert Cox |
+| [CE-4015](https://pointdf.atlassian.net/browse/CE-4015) | 1 | Daniel Cardenas |
+| [CE-4017](https://pointdf.atlassian.net/browse/CE-4017) | 1 | Robert Cox |
+| [CE-4032](https://pointdf.atlassian.net/browse/CE-4032) | 2 | Robert Cox |
+| [CE-4034](https://pointdf.atlassian.net/browse/CE-4034) | 1 | Robert Cox |
+| [CE-4024](https://pointdf.atlassian.net/browse/CE-4024) | 1 | Robert Cox |
+| [CE-4035](https://pointdf.atlassian.net/browse/CE-4035) | 1 | Pratheesh Harikumar |
+| [CE-4019](https://pointdf.atlassian.net/browse/CE-4019) | 1 | Daniel Cardenas |
 
 ---
 

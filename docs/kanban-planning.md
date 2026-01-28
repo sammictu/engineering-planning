@@ -8,16 +8,109 @@ This document provides guidance for kanban-based planning and continuous flow ma
 
 | Column | Description | WIP Limit | Entry Criteria | Exit Criteria |
 |--------|-------------|-----------|----------------|---------------|
-| Backlog | Prioritized features ready to start | [Limit] | [Criteria] | [Criteria] |
-| Ready | Features ready to be pulled | [Limit] | [Criteria] | [Criteria] |
-| In Progress | Active development work | [Limit] | [Criteria] | [Criteria] |
-| Review | Code review and QA | [Limit] | [Criteria] | [Criteria] |
-| Done | Completed and deployed | [Limit] | [Criteria] | [Criteria] |
+| Backlog | Prioritized work awaiting refinement | No limit | Issue created with summary | Acceptance criteria defined, sized (1-3), dependencies identified |
+| Ready | Work ready to be pulled | 10 per team | Acceptance criteria written, sized, no blockers | Engineer pulls into In Progress |
+| In Progress | Active development work | 2 per engineer | Assigned, branch created, no blockers | Code complete, PR opened |
+| PR | Code review | 3 per team | PR opened, CI passing, tests written | Approved by 1+ reviewer, comments addressed |
+| Ready for QA | Awaiting QA testing | 5 per team | PR merged to staging, deploy successful | QA sign-off, no critical bugs |
+| QA In Progress | Active QA testing | 3 per team | QA assigned, test cases ready | All test cases passed |
+| RC | Release candidate | No limit | QA complete, ready for production | Deployed to production |
+| Done | Completed and deployed | No limit | In production, smoke tests passed | N/A |
+
+### Entry & Exit Criteria Details
+
+#### Backlog → Ready
+
+**Entry Criteria (to enter Ready):**
+- [ ] Summary clearly describes the work
+- [ ] Acceptance criteria written and testable
+- [ ] Story point estimate assigned (1, 2, or 3)
+- [ ] Dependencies identified and resolved (or tracked)
+- [ ] Repo tag in title: [CP], [HOS], [PQ], [Design], etc.
+- [ ] Figma link included (if [Design] or [CP] with UI changes)
+- [ ] No external blockers
+
+**Exit Criteria (to leave Ready):**
+- [ ] Engineer available with capacity
+- [ ] Engineer pulls work (not pushed)
+
+#### Ready → In Progress
+
+**Entry Criteria (to enter In Progress):**
+- [ ] Engineer assigned
+- [ ] Feature branch created from main
+- [ ] No blockers preventing start
+
+**Exit Criteria (to leave In Progress):**
+- [ ] Code implementation complete
+- [ ] Unit tests written and passing
+- [ ] Self-review completed
+- [ ] PR opened with description and Jira link
+
+#### In Progress → PR
+
+**Entry Criteria (to enter PR):**
+- [ ] PR opened against main
+- [ ] CI pipeline passing (lint, tests, build)
+- [ ] PR description includes:
+  - Jira ticket link
+  - Summary of changes
+  - Testing instructions
+  - Screenshots (if UI changes)
+
+**Exit Criteria (to leave PR):**
+- [ ] At least 1 approval from reviewer
+- [ ] All review comments addressed
+- [ ] No unresolved conversations
+- [ ] CI still passing after changes
+
+#### PR → Ready for QA
+
+**Entry Criteria (to enter Ready for QA):**
+- [ ] PR merged to main
+- [ ] Successfully deployed to staging
+- [ ] No deployment errors
+
+**Exit Criteria (to leave Ready for QA):**
+- [ ] QA engineer assigned
+- [ ] Test cases documented
+
+#### Ready for QA → QA In Progress
+
+**Entry Criteria (to enter QA In Progress):**
+- [ ] QA engineer begins testing
+- [ ] Staging environment stable
+
+**Exit Criteria (to leave QA In Progress):**
+- [ ] All test cases executed
+- [ ] No critical or high bugs remaining
+- [ ] QA sign-off obtained
+
+#### QA In Progress → RC
+
+**Entry Criteria (to enter RC):**
+- [ ] QA complete with sign-off
+- [ ] Analytics sign-off (if feature epic)
+- [ ] Ready for production deployment
+
+**Exit Criteria (to leave RC):**
+- [ ] Deployed to production
+- [ ] Smoke tests passed
+- [ ] No rollback needed
+
+#### RC → Done
+
+**Entry Criteria (to enter Done):**
+- [ ] In production
+- [ ] Smoke tests passed
+- [ ] Monitoring shows no issues
 
 **WIP Limit Guidelines:**
-- Set WIP limits based on team capacity
-- Adjust limits based on flow metrics and bottlenecks
-- Enforce limits to maintain flow and quality
+- **In Progress:** Max 2 items per engineer to maintain focus
+- **PR:** Max 3 per team to prevent review bottleneck
+- **Ready for QA:** Max 5 per team to prevent QA bottleneck
+- Adjust limits based on flow metrics and observed bottlenecks
+- When at limit, focus on completing current work before pulling new
 
 ---
 
@@ -271,7 +364,7 @@ This document provides guidance for kanban-based planning and continuous flow ma
 
 ## Notes
 
-- Last updated: [Date]
-- Maintained by: [Name/Team]
-- Review frequency: [Weekly]
-- Replenishment cadence: [Weekly/Bi-weekly]
+- Last updated: January 28, 2026
+- Maintained by: Wei Huang
+- Review frequency: Weekly
+- Replenishment cadence: Weekly (Monday)

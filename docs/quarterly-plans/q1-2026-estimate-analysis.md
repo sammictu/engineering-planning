@@ -1,6 +1,6 @@
 # Q1 2026 Estimate Analysis
 
-**Analysis Date:** January 29, 2026 (Last refresh: 11:00 AM)
+**Analysis Date:** January 29, 2026 (Last refresh: 11:30 AM)
 **Analyst:** Wei Huang
 **Source:** Jira data + [Q1 2026 Capacity Plan](./q1-2026-capacity-plan.md)
 
@@ -65,12 +65,13 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 | [CE-4035](https://pointdf.atlassian.net/browse/CE-4035) | Enum missing error in /dashboard | PR | Pratheesh Harikumar | 1 | Bug fix, contained |
 | [CE-4019](https://pointdf.atlassian.net/browse/CE-4019) | Update browser extension for additional fields | RC | Daniel Cardenas | 1 | Extension update, contained |
 
-### CE-3942 - Login Flexibility Epic (1 substory without estimate)
+### CE-3942 - Login Flexibility Epic (2 substories without estimate)
 
-**29 substories now have estimates.** Only 1 remaining:
+**29 substories now have estimates.** 2 remaining:
 
 | Issue | Title | Status | Assignee | Suggested Size | Rationale |
 |-------|-------|--------|----------|----------------|-----------|
+| [CE-4048](https://pointdf.atlassian.net/browse/CE-4048) | [CP] Max tries should have back to login leading to email login | OPEN | | 1 | FE fix, contained |
 | [CE-3964](https://pointdf.atlassian.net/browse/CE-3964) | [TASK] Submit A2P 10DLC registration for SMS | PR | Pratheesh Harikumar | 1 | Admin task, contained |
 
 ---
@@ -83,8 +84,8 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 | GRO-1246 (needs breakdown) | 1 | 0 | Epic |
 | GRO-1189 (React 19) | 2 | 0 | Spike + Epic |
 | CE Bugs | 3 | 0 | ~5 pts |
-| CE-3942 Substories | 1 | 29 | ~1 pt |
-| **Total** | **15** | **40** | **~18 pts** |
+| CE-3942 Substories | 2 | 29 | ~2 pts |
+| **Total** | **16** | **40** | **~19 pts** |
 
 *Note: Excludes "Closed - Won't Do" issues. Using "Estimate" field (customfield_10026).*
 
@@ -120,13 +121,16 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 | Issue | Title | Status | Assignee | Suggested Size | Rationale |
 |-------|-------|--------|----------|----------------|-----------|
-| [GRO-1284](https://pointdf.atlassian.net/browse/GRO-1284) | [CP] Adjust language and progress-bar speed when waiting for new offer | IN PROGRESS | | 1 | FE tweak, contained |
+| [GRO-1235](https://pointdf.atlassian.net/browse/GRO-1235) | [QA] Add E2E test(s) for automatic offer creation | IN PROGRESS | SungMin Hong | 2 | QA automation, multiple flows |
 | [GRO-1275](https://pointdf.atlassian.net/browse/GRO-1275) | [Release Plan] GRO-1211: Self-Serve Updated Estimates | OPEN | Richard Collins | 1 | Release coordination |
 | [GRO-1267](https://pointdf.atlassian.net/browse/GRO-1267) | [CP] Instrument Posthog | OPEN | Richard Collins | 2 | Analytics integration |
 | [GRO-1276](https://pointdf.atlassian.net/browse/GRO-1276) | Minor Text issue on Request Complete modal | BACKLOG | Richard Collins | 1 | Copy fix, trivial |
-| [GRO-1235](https://pointdf.atlassian.net/browse/GRO-1235) | [QA] Add E2E test(s) for automatic offer creation | OPEN | SungMin Hong | 2 | QA automation, multiple flows |
 
 **Done (Still Need Points):**
+
+| Issue | Title | Status | Assignee | Suggested Size | Rationale |
+|-------|-------|--------|----------|----------------|-----------|
+| [GRO-1284](https://pointdf.atlassian.net/browse/GRO-1284) | [CP] Adjust language and progress-bar speed when waiting for new offer | DONE | | 1 | FE tweak, contained |
 
 | Issue | Title | Status | Assignee | Suggested Size | Rationale |
 |-------|-------|--------|----------|----------------|-----------|
@@ -201,7 +205,7 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 | Issue | Impact | Recommendation |
 |-------|--------|----------------|
-| No story points on 15 issues | Can't validate estimates against actuals | Size active (12) + backfill Done (3) |
+| No story points on 16 issues | Can't validate estimates against actuals | Size active (12) + backfill Done (4) |
 | GRO-1246 under-scoped | 280 hrs planned but only 1 story exists | Break down before Feb |
 | GRO-1189 under-scoped | 250 hrs planned but only spike exists | Complete spike, create stories |
 | GRO-1269 not accessible | Can't analyze HELOC Opt-In epic | Verify permissions |
@@ -214,16 +218,16 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 | Issue | Points | Assignee |
 |-------|--------|----------|
-| [GRO-1284](https://pointdf.atlassian.net/browse/GRO-1284) | 1 | |
+| [GRO-1235](https://pointdf.atlassian.net/browse/GRO-1235) | 2 | SungMin Hong |
 | [GRO-1276](https://pointdf.atlassian.net/browse/GRO-1276) | 1 | Richard Collins |
 | [GRO-1275](https://pointdf.atlassian.net/browse/GRO-1275) | 1 | Richard Collins |
 | [GRO-1267](https://pointdf.atlassian.net/browse/GRO-1267) | 2 | Richard Collins |
-| [GRO-1235](https://pointdf.atlassian.net/browse/GRO-1235) | 2 | SungMin Hong |
 
 ### GRO Team (GRO-1211 - Done/Backfill)
 
 | Issue | Points | Assignee |
 |-------|--------|----------|
+| [GRO-1284](https://pointdf.atlassian.net/browse/GRO-1284) | 1 | |
 | [GRO-1264](https://pointdf.atlassian.net/browse/GRO-1264) | 2 | Richard Collins |
 | [GRO-1253](https://pointdf.atlassian.net/browse/GRO-1253) | 2 | Richard Collins |
 | [GRO-1212](https://pointdf.atlassian.net/browse/GRO-1212) | Spike | Richard Collins |
@@ -240,6 +244,7 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 | Issue | Points | Assignee |
 |-------|--------|----------|
+| [CE-4048](https://pointdf.atlassian.net/browse/CE-4048) | 1 | |
 | [CE-3964](https://pointdf.atlassian.net/browse/CE-3964) | 1 | Pratheesh Harikumar |
 
 *29 other CE-3942 substories now have estimates.*
@@ -248,14 +253,14 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 ## Next Steps
 
-1. [ ] Add story points to the 15 issues listed above (~18 pts total)
+1. [ ] Add story points to the 16 issues listed above (~19 pts total)
 2. [ ] Break down [GRO-1246](https://pointdf.atlassian.net/browse/GRO-1246) into implementation stories
 3. [ ] Complete [GRO-1191](https://pointdf.atlassian.net/browse/GRO-1191) spike for React 19 and create stories
 4. [x] ~~Assign CE-3923~~ - Assigned to Daniel Cardenas
 5. [ ] Verify access to GRO-1269 (HELOC Opt-In)
 6. [x] ~~Break down CE-3942 (Login Flexibility) stories~~ - 30 substories identified
 7. [x] ~~Add estimates to CE-3942 substories~~ - 29 of 30 now have estimates
-8. [ ] Backfill points on Done items for velocity tracking (GRO-1264, GRO-1253, GRO-1212)
+8. [ ] Backfill points on Done items for velocity tracking (GRO-1284, GRO-1264, GRO-1253, GRO-1212)
 
 ---
 

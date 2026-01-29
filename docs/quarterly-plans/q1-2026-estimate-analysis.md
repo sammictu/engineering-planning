@@ -1,6 +1,6 @@
 # Q1 2026 Estimate Analysis
 
-**Analysis Date:** January 28, 2026 (Last refresh: 2:30 PM)
+**Analysis Date:** January 29, 2026 (Last refresh: 11:00 AM)
 **Analyst:** Wei Huang
 **Source:** Jira data + [Q1 2026 Capacity Plan](./q1-2026-capacity-plan.md)
 
@@ -28,11 +28,14 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 ### High Priority (Active Work / Blocking 1/29 Deadline)
 
-| Issue | Title | Status | Assignee | Suggested Size | Rationale |
-|-------|-------|--------|----------|----------------|-----------|
-| [GRO-1280](https://pointdf.atlassian.net/browse/GRO-1280) | When accepted, still displays offer as next task | RC | Richard Collins | 1 | Bug fix, contained to [CP], blocks release |
-| [GRO-1236](https://pointdf.atlassian.net/browse/GRO-1236) | [CP] Playwright tests for automatic offer creation | IN PROGRESS | Richard Collins | 2 | Test work, multiple scenarios |
-| [GRO-1225](https://pointdf.atlassian.net/browse/GRO-1225) | [HOS] Add details to initial estimate tasks | RC | Richard Collins | 2 | BE change, in release candidate |
+✅ **All high priority items now have estimates!**
+
+| Issue | Title | Status | Estimate |
+|-------|-------|--------|----------|
+| [GRO-1280](https://pointdf.atlassian.net/browse/GRO-1280) | When accepted, still displays offer as next task | RC | ✓ |
+| [GRO-1283](https://pointdf.atlassian.net/browse/GRO-1283) | [CP] Record (in PostHog) time to create a new offer | RC | ✓ |
+| [GRO-1236](https://pointdf.atlassian.net/browse/GRO-1236) | [CP] Playwright tests for automatic offer creation | IN PROGRESS | ✓ |
+| [GRO-1225](https://pointdf.atlassian.net/browse/GRO-1225) | [HOS] Add details to initial estimate tasks | RC | ✓ |
 
 ### Medium Priority (Open Work - Q1 Delivery)
 
@@ -76,12 +79,12 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 | Category | Missing Estimates | Has Estimates | Suggested Points |
 |----------|-------------------|---------------|------------------|
-| GRO-1211 Substories | 11 | 8 | ~15 pts |
+| GRO-1211 Substories | 8 | 11 | ~12 pts |
 | GRO-1246 (needs breakdown) | 1 | 0 | Epic |
 | GRO-1189 (React 19) | 2 | 0 | Spike + Epic |
 | CE Bugs | 3 | 0 | ~5 pts |
 | CE-3942 Substories | 1 | 29 | ~1 pt |
-| **Total** | **18** | **37** | **~21 pts** |
+| **Total** | **15** | **40** | **~18 pts** |
 
 *Note: Excludes "Closed - Won't Do" issues. Using "Estimate" field (customfield_10026).*
 
@@ -109,22 +112,19 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 **Assessment:** Well broken down, heavily FE-weighted, scope reduction helped.
 
-**Substories Missing Estimates (11 total):**
+**Substories Missing Estimates (8 total):**
 
-**8 substories now have estimates.** Remaining:
+**11 substories now have estimates.** Remaining:
 
 **Active Work:**
 
 | Issue | Title | Status | Assignee | Suggested Size | Rationale |
 |-------|-------|--------|----------|----------------|-----------|
+| [GRO-1284](https://pointdf.atlassian.net/browse/GRO-1284) | [CP] Adjust language and progress-bar speed when waiting for new offer | IN PROGRESS | | 1 | FE tweak, contained |
 | [GRO-1275](https://pointdf.atlassian.net/browse/GRO-1275) | [Release Plan] GRO-1211: Self-Serve Updated Estimates | OPEN | Richard Collins | 1 | Release coordination |
 | [GRO-1267](https://pointdf.atlassian.net/browse/GRO-1267) | [CP] Instrument Posthog | OPEN | Richard Collins | 2 | Analytics integration |
-| [GRO-1235](https://pointdf.atlassian.net/browse/GRO-1235) | [QA] Add E2E test(s) for automatic offer creation | OPEN | SungMin Hong | 2 | QA automation, multiple flows |
-| [GRO-1284](https://pointdf.atlassian.net/browse/GRO-1284) | [CP] Adjust language and progress-bar speed when waiting for new offer | IN PROGRESS | | 1 | FE tweak, contained |
-| [GRO-1283](https://pointdf.atlassian.net/browse/GRO-1283) | [CP] Record (in PostHog) time to create a new offer | IN PROGRESS | Richard Collins | 1 | Analytics, contained |
-| [GRO-1236](https://pointdf.atlassian.net/browse/GRO-1236) | [CP] Playwright tests for automatic offer creation | IN PROGRESS | Richard Collins | 2 | Test work, multiple scenarios |
 | [GRO-1276](https://pointdf.atlassian.net/browse/GRO-1276) | Minor Text issue on Request Complete modal | BACKLOG | Richard Collins | 1 | Copy fix, trivial |
-| [GRO-1280](https://pointdf.atlassian.net/browse/GRO-1280) | When accepted, still displays offer as next task | RC | Richard Collins | 1 | Bug fix, contained |
+| [GRO-1235](https://pointdf.atlassian.net/browse/GRO-1235) | [QA] Add E2E test(s) for automatic offer creation | OPEN | SungMin Hong | 2 | QA automation, multiple flows |
 
 **Done (Still Need Points):**
 
@@ -201,7 +201,7 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 | Issue | Impact | Recommendation |
 |-------|--------|----------------|
-| No story points on 18 issues | Can't validate estimates against actuals | Size active (15) + backfill Done (3) |
+| No story points on 15 issues | Can't validate estimates against actuals | Size active (12) + backfill Done (3) |
 | GRO-1246 under-scoped | 280 hrs planned but only 1 story exists | Break down before Feb |
 | GRO-1189 under-scoped | 250 hrs planned but only spike exists | Complete spike, create stories |
 | GRO-1269 not accessible | Can't analyze HELOC Opt-In epic | Verify permissions |
@@ -215,12 +215,9 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 | Issue | Points | Assignee |
 |-------|--------|----------|
 | [GRO-1284](https://pointdf.atlassian.net/browse/GRO-1284) | 1 | |
-| [GRO-1283](https://pointdf.atlassian.net/browse/GRO-1283) | 1 | Richard Collins |
-| [GRO-1280](https://pointdf.atlassian.net/browse/GRO-1280) | 1 | Richard Collins |
 | [GRO-1276](https://pointdf.atlassian.net/browse/GRO-1276) | 1 | Richard Collins |
 | [GRO-1275](https://pointdf.atlassian.net/browse/GRO-1275) | 1 | Richard Collins |
 | [GRO-1267](https://pointdf.atlassian.net/browse/GRO-1267) | 2 | Richard Collins |
-| [GRO-1236](https://pointdf.atlassian.net/browse/GRO-1236) | 2 | Richard Collins |
 | [GRO-1235](https://pointdf.atlassian.net/browse/GRO-1235) | 2 | SungMin Hong |
 
 ### GRO Team (GRO-1211 - Done/Backfill)
@@ -251,7 +248,7 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 ## Next Steps
 
-1. [ ] Add story points to the 18 issues listed above (~21 pts total)
+1. [ ] Add story points to the 15 issues listed above (~18 pts total)
 2. [ ] Break down [GRO-1246](https://pointdf.atlassian.net/browse/GRO-1246) into implementation stories
 3. [ ] Complete [GRO-1191](https://pointdf.atlassian.net/browse/GRO-1191) spike for React 19 and create stories
 4. [x] ~~Assign CE-3923~~ - Assigned to Daniel Cardenas

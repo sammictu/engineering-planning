@@ -44,12 +44,13 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 | [CE-4015](https://pointdf.atlassian.net/browse/CE-4015) | [CP] Remove AuthorizedContacts feature flag | Ready for QA | 1 |
 | [CE-4019](https://pointdf.atlassian.net/browse/CE-4019) | Update browser extension for additional fields | RC | 1 |
 
-### Robert Cox (2 issues)
+### Robert Cox (3 issues)
 
 | Issue | Title | Status | Size |
 |-------|-------|--------|------|
 | [CE-3865](https://pointdf.atlassian.net/browse/CE-3865) | HO Funding date showing past date | OPEN | 2 |
 | [CE-4048](https://pointdf.atlassian.net/browse/CE-4048) | [CP] Max tries should have back to login | IN PROGRESS | 1 |
+| [CE-4052](https://pointdf.atlassian.net/browse/CE-4052) | Retry throttle should be on /otp response | BACKLOG | 1 |
 
 ### Unassigned (3 issues)
 
@@ -93,8 +94,8 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 | GRO-1246 (needs breakdown) | 1 | 0 | Epic |
 | GRO-1189 (React 19) | 2 | 0 | Spike + Epic |
 | CE Bugs | 2 | 0 | ~3 pts |
-| CE-3942 Substories | 5 | 29 | ~5 pts |
-| **Total** | **17** | **42** | **~19 pts** |
+| CE-3942 Substories | 6 | 28 | ~6 pts |
+| **Total** | **18** | **41** | **~20 pts** |
 
 *Note: Excludes "Closed - Won't Do" issues. Using "Estimate" field (customfield_10026).*
 
@@ -210,7 +211,7 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 | Issue | Impact | Recommendation |
 |-------|--------|----------------|
-| No story points on 17 issues | Can't validate estimates against actuals | Size active (8) + backfill Done (9) |
+| No story points on 18 issues | Can't validate estimates against actuals | Size active (9) + backfill Done (9) |
 | GRO-1246 under-scoped | 280 hrs planned but only 1 story exists | Break down before Feb |
 | GRO-1189 under-scoped | 250 hrs planned but only spike exists | Spike in progress (Tomas), create stories after |
 
@@ -248,17 +249,18 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 | Issue | Points | Assignee |
 |-------|--------|----------|
 | [CE-4048](https://pointdf.atlassian.net/browse/CE-4048) | 1 | Robert Cox |
+| [CE-4052](https://pointdf.atlassian.net/browse/CE-4052) | 1 | Robert Cox |
 | [CE-4015](https://pointdf.atlassian.net/browse/CE-4015) | 1 | Daniel Cardenas |
 | [CE-4019](https://pointdf.atlassian.net/browse/CE-4019) | 1 | Daniel Cardenas |
 | [CE-3964](https://pointdf.atlassian.net/browse/CE-3964) | 1 | Pratheesh Harikumar |
 
-*29 other CE-3942 substories now have estimates.*
+*28 other CE-3942 substories now have estimates.*
 
 ---
 
 ## Next Steps
 
-1. [ ] Add story points to the 17 issues listed above (~19 pts total)
+1. [ ] Add story points to the 18 issues listed above (~20 pts total)
 2. [ ] Break down [GRO-1246](https://pointdf.atlassian.net/browse/GRO-1246) into implementation stories
 3. [ ] Complete [GRO-1191](https://pointdf.atlassian.net/browse/GRO-1191) spike for React 19 and create stories (Tomas in progress)
 4. [x] ~~Assign CE-3923~~ - Assigned to Daniel Cardenas

@@ -1,6 +1,6 @@
 # Q1 2026 Estimate Analysis
 
-**Analysis Date:** January 29, 2026 (Last refresh: 12:00 PM)
+**Analysis Date:** January 29, 2026 (Last refresh: 12:30 PM)
 **Analyst:** Wei Huang
 **Source:** Jira data + [Q1 2026 Capacity Plan](./q1-2026-capacity-plan.md)
 
@@ -36,10 +36,11 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 | [CE-4017](https://pointdf.atlassian.net/browse/CE-4017) | [CP] Use obscured email from otp response | PR | 1 |
 | [CE-4034](https://pointdf.atlassian.net/browse/CE-4034) | [CP] Adjust Post Funding pages based on API Response | Ready for QA | 1 |
 
-### Richard Collins (2 issues)
+### Richard Collins (3 issues)
 
 | Issue | Title | Status | Size |
 |-------|-------|--------|------|
+| [GRO-1296](https://pointdf.atlassian.net/browse/GRO-1296) | [CP] Load stepped pricing asynchronously | IN PROGRESS | 2 |
 | [GRO-1267](https://pointdf.atlassian.net/browse/GRO-1267) | [CP] Instrument Posthog | OPEN | 2 |
 | [GRO-1276](https://pointdf.atlassian.net/browse/GRO-1276) | Minor Text issue on Request Complete modal | BACKLOG | 1 |
 
@@ -82,12 +83,12 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 | Category | Missing Estimates | Has Estimates | Suggested Points |
 |----------|-------------------|---------------|------------------|
-| GRO-1211 Substories | 8 | 11 | ~12 pts |
+| GRO-1211 Substories | 9 | 11 | ~14 pts |
 | GRO-1246 (needs breakdown) | 1 | 0 | Epic |
 | GRO-1189 (React 19) | 2 | 0 | Spike + Epic |
 | CE Bugs | 3 | 0 | ~5 pts |
 | CE-3942 Substories | 2 | 29 | ~2 pts |
-| **Total** | **16** | **40** | **~19 pts** |
+| **Total** | **17** | **40** | **~21 pts** |
 
 *Note: Excludes "Closed - Won't Do" issues. Using "Estimate" field (customfield_10026).*
 
@@ -115,7 +116,7 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 **Assessment:** Well broken down, heavily FE-weighted, scope reduction helped.
 
-**Substories Missing Estimates (8 total):**
+**Substories Missing Estimates (9 total):**
 
 **11 substories now have estimates.** Remaining:
 
@@ -123,6 +124,7 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 | Issue | Title | Status | Assignee | Suggested Size | Rationale |
 |-------|-------|--------|----------|----------------|-----------|
+| [GRO-1296](https://pointdf.atlassian.net/browse/GRO-1296) | [CP] Load stepped pricing asynchronously | IN PROGRESS | Richard Collins | 2 | Performance, FE work |
 | [GRO-1235](https://pointdf.atlassian.net/browse/GRO-1235) | [QA] Add E2E test(s) for automatic offer creation | IN PROGRESS | SungMin Hong | 2 | QA automation, multiple flows |
 | [GRO-1275](https://pointdf.atlassian.net/browse/GRO-1275) | [Release Plan] GRO-1211: Self-Serve Updated Estimates | OPEN | Richard Collins | 1 | Release coordination |
 | [GRO-1267](https://pointdf.atlassian.net/browse/GRO-1267) | [CP] Instrument Posthog | OPEN | Richard Collins | 2 | Analytics integration |
@@ -207,7 +209,7 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 | Issue | Impact | Recommendation |
 |-------|--------|----------------|
-| No story points on 16 issues | Can't validate estimates against actuals | Size active (12) + backfill Done (4) |
+| No story points on 17 issues | Can't validate estimates against actuals | Size active (13) + backfill Done (4) |
 | GRO-1246 under-scoped | 280 hrs planned but only 1 story exists | Break down before Feb |
 | GRO-1189 under-scoped | 250 hrs planned but only spike exists | Complete spike, create stories |
 
@@ -219,6 +221,7 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 | Issue | Points | Assignee |
 |-------|--------|----------|
+| [GRO-1296](https://pointdf.atlassian.net/browse/GRO-1296) | 2 | Richard Collins |
 | [GRO-1235](https://pointdf.atlassian.net/browse/GRO-1235) | 2 | SungMin Hong |
 | [GRO-1276](https://pointdf.atlassian.net/browse/GRO-1276) | 1 | Richard Collins |
 | [GRO-1275](https://pointdf.atlassian.net/browse/GRO-1275) | 1 | Richard Collins |
@@ -254,7 +257,7 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 ## Next Steps
 
-1. [ ] Add story points to the 16 issues listed above (~19 pts total)
+1. [ ] Add story points to the 17 issues listed above (~21 pts total)
 2. [ ] Break down [GRO-1246](https://pointdf.atlassian.net/browse/GRO-1246) into implementation stories
 3. [ ] Complete [GRO-1191](https://pointdf.atlassian.net/browse/GRO-1191) spike for React 19 and create stories
 4. [x] ~~Assign CE-3923~~ - Assigned to Daniel Cardenas

@@ -26,18 +26,7 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 ## Jiras Missing Story Points
 
-### High Priority (Active Work / Blocking 1/29 Deadline)
-
-✅ **All high priority items now have estimates!**
-
-| Issue | Title | Status | Estimate |
-|-------|-------|--------|----------|
-| [GRO-1280](https://pointdf.atlassian.net/browse/GRO-1280) | When accepted, still displays offer as next task | DONE | ✓ |
-| [GRO-1283](https://pointdf.atlassian.net/browse/GRO-1283) | [CP] Record (in PostHog) time to create a new offer | DONE | ✓ |
-| [GRO-1236](https://pointdf.atlassian.net/browse/GRO-1236) | [CP] Playwright tests for automatic offer creation | DONE | ✓ |
-| [GRO-1225](https://pointdf.atlassian.net/browse/GRO-1225) | [HOS] Add details to initial estimate tasks | RC | ✓ |
-
-### Medium Priority (Open Work - Q1 Delivery)
+### GRO Team - Open/In Progress
 
 | Issue | Title | Status | Assignee | Suggested Size | Rationale |
 |-------|-------|--------|----------|----------------|-----------|

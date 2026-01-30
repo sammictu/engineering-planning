@@ -1,6 +1,6 @@
 # Q1 2026 Estimate Analysis
 
-**Analysis Date:** January 29, 2026 (Last refresh: 11:30 AM)
+**Analysis Date:** January 29, 2026 (Last refresh: 12:00 PM)
 **Analyst:** Wei Huang
 **Source:** Jira data + [Q1 2026 Capacity Plan](./q1-2026-capacity-plan.md)
 
@@ -32,9 +32,9 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 | Issue | Title | Status | Estimate |
 |-------|-------|--------|----------|
-| [GRO-1280](https://pointdf.atlassian.net/browse/GRO-1280) | When accepted, still displays offer as next task | RC | ✓ |
-| [GRO-1283](https://pointdf.atlassian.net/browse/GRO-1283) | [CP] Record (in PostHog) time to create a new offer | RC | ✓ |
-| [GRO-1236](https://pointdf.atlassian.net/browse/GRO-1236) | [CP] Playwright tests for automatic offer creation | IN PROGRESS | ✓ |
+| [GRO-1280](https://pointdf.atlassian.net/browse/GRO-1280) | When accepted, still displays offer as next task | DONE | ✓ |
+| [GRO-1283](https://pointdf.atlassian.net/browse/GRO-1283) | [CP] Record (in PostHog) time to create a new offer | DONE | ✓ |
+| [GRO-1236](https://pointdf.atlassian.net/browse/GRO-1236) | [CP] Playwright tests for automatic offer creation | DONE | ✓ |
 | [GRO-1225](https://pointdf.atlassian.net/browse/GRO-1225) | [HOS] Add details to initial estimate tasks | RC | ✓ |
 
 ### Medium Priority (Open Work - Q1 Delivery)
@@ -71,7 +71,7 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 | Issue | Title | Status | Assignee | Suggested Size | Rationale |
 |-------|-------|--------|----------|----------------|-----------|
-| [CE-4048](https://pointdf.atlassian.net/browse/CE-4048) | [CP] Max tries should have back to login leading to email login | OPEN | | 1 | FE fix, contained |
+| [CE-4048](https://pointdf.atlassian.net/browse/CE-4048) | [CP] Max tries should have back to login leading to email login | IN PROGRESS | | 1 | FE fix, contained |
 | [CE-3964](https://pointdf.atlassian.net/browse/CE-3964) | [TASK] Submit A2P 10DLC registration for SMS | PR | Pratheesh Harikumar | 1 | Admin task, contained |
 
 ---

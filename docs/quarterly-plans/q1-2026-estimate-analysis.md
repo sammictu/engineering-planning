@@ -258,9 +258,17 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 ---
 
+## Issues Needing Estimates (14 stories)
+
+*Excludes epics and spikes*
+
+[GRO-1267](https://pointdf.atlassian.net/browse/GRO-1267) | [GRO-1275](https://pointdf.atlassian.net/browse/GRO-1275) | [GRO-1264](https://pointdf.atlassian.net/browse/GRO-1264) | [GRO-1253](https://pointdf.atlassian.net/browse/GRO-1253) | [GRO-1284](https://pointdf.atlassian.net/browse/GRO-1284) | [GRO-1235](https://pointdf.atlassian.net/browse/GRO-1235) | [CE-3923](https://pointdf.atlassian.net/browse/CE-3923) | [CE-4015](https://pointdf.atlassian.net/browse/CE-4015) | [CE-4019](https://pointdf.atlassian.net/browse/CE-4019) | [CE-3865](https://pointdf.atlassian.net/browse/CE-3865) | [CE-4048](https://pointdf.atlassian.net/browse/CE-4048) | [CE-4052](https://pointdf.atlassian.net/browse/CE-4052) | [CE-3964](https://pointdf.atlassian.net/browse/CE-3964) | [CE-3926](https://pointdf.atlassian.net/browse/CE-3926)
+
+---
+
 ## Next Steps
 
-1. [ ] Add story points to the 18 issues listed above (~20 pts total)
+1. [ ] Add story points to the 14 stories listed above (~17 pts total)
 2. [ ] Break down [GRO-1246](https://pointdf.atlassian.net/browse/GRO-1246) into implementation stories
 3. [ ] Complete [GRO-1191](https://pointdf.atlassian.net/browse/GRO-1191) spike for React 19 and create stories (Tomas in progress)
 4. [x] ~~Assign CE-3923~~ - Assigned to Daniel Cardenas

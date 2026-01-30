@@ -24,44 +24,57 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 
 ---
 
-## Jiras Missing Story Points
+## Jiras Missing Estimates (by Assignee)
 
-### GRO Team - Open/In Progress
+### Robert Cox (5 issues)
 
-| Issue | Title | Status | Assignee | Suggested Size | Rationale |
-|-------|-------|--------|----------|----------------|-----------|
-| [GRO-1267](https://pointdf.atlassian.net/browse/GRO-1267) | [CP] Instrument Posthog | OPEN | Richard Collins | 2 | Analytics integration, FE work |
-| [GRO-1235](https://pointdf.atlassian.net/browse/GRO-1235) | [QA] Add E2E test(s) for automatic offer creation | OPEN | SungMin Hong | 2 | QA automation, multiple flows |
-| [GRO-1276](https://pointdf.atlassian.net/browse/GRO-1276) | Minor Text issue on Request Complete modal | BACKLOG | Richard Collins | 1 | Copy fix, trivial |
+| Issue | Title | Status | Size |
+|-------|-------|--------|------|
+| [CE-3865](https://pointdf.atlassian.net/browse/CE-3865) | HO Funding date showing past date | OPEN | 2 |
+| [CE-4021](https://pointdf.atlassian.net/browse/CE-4021) | [CP] Implement throttling | Ready for QA | 2 |
+| [CE-4032](https://pointdf.atlassian.net/browse/CE-4032) | [CP] Add playwright tests for login v2 | PR | 2 |
+| [CE-4017](https://pointdf.atlassian.net/browse/CE-4017) | [CP] Use obscured email from otp response | PR | 1 |
+| [CE-4034](https://pointdf.atlassian.net/browse/CE-4034) | [CP] Adjust Post Funding pages based on API Response | Ready for QA | 1 |
 
-### CE Bugs (Week of 1/27 - Per Capacity Plan)
+### Richard Collins (2 issues)
 
-| Issue | Title | Status | Priority | Assignee | Suggested Size | Rationale |
-|-------|-------|--------|----------|----------|----------------|-----------|
-| [CE-3865](https://pointdf.atlassian.net/browse/CE-3865) | HO Funding date showing past date | OPEN | High | Robert Cox | 2 | Data sync issue, needs investigation |
-| [CE-3923](https://pointdf.atlassian.net/browse/CE-3923) | Docket duplicate logic fails with space/hyphen | OPEN | Medium | Daniel Cardenas | 2 | Logic fix, multiple edge cases |
-| [CE-3926](https://pointdf.atlassian.net/browse/CE-3926) | HO Dashboard timeline messaging incorrect | BACKLOG | Medium | Josh Hohman | 1 | Conditional logic fix |
+| Issue | Title | Status | Size |
+|-------|-------|--------|------|
+| [GRO-1267](https://pointdf.atlassian.net/browse/GRO-1267) | [CP] Instrument Posthog | OPEN | 2 |
+| [GRO-1276](https://pointdf.atlassian.net/browse/GRO-1276) | Minor Text issue on Request Complete modal | BACKLOG | 1 |
 
-### CE Active Work (In Progress / Open)
+### Daniel Cardenas (3 issues)
 
-| Issue | Title | Status | Assignee | Suggested Size | Rationale |
-|-------|-------|--------|----------|----------------|-----------|
-| [CE-4021](https://pointdf.atlassian.net/browse/CE-4021) | [CP] Implement throttling | Ready for QA | Robert Cox | 2 | Rate limiting, multiple endpoints |
-| [CE-4015](https://pointdf.atlassian.net/browse/CE-4015) | [CP] Remove AuthorizedContacts feature flag | PR | Daniel Cardenas | 1 | Flag cleanup, contained |
-| [CE-4017](https://pointdf.atlassian.net/browse/CE-4017) | [CP] Use obscured email from otp response | PR | Robert Cox | 1 | API integration, contained |
-| [CE-4032](https://pointdf.atlassian.net/browse/CE-4032) | [CP] Add playwright tests for login v2 | PR | Robert Cox | 2 | Test work, multiple scenarios |
-| [CE-4034](https://pointdf.atlassian.net/browse/CE-4034) | [CP] Adjust Post Funding pages based on API Response | Ready for QA | Robert Cox | 1 | FE update, contained |
-| [CE-4035](https://pointdf.atlassian.net/browse/CE-4035) | Enum missing error in /dashboard | PR | Pratheesh Harikumar | 1 | Bug fix, contained |
-| [CE-4019](https://pointdf.atlassian.net/browse/CE-4019) | Update browser extension for additional fields | RC | Daniel Cardenas | 1 | Extension update, contained |
+| Issue | Title | Status | Size |
+|-------|-------|--------|------|
+| [CE-3923](https://pointdf.atlassian.net/browse/CE-3923) | Docket duplicate logic fails with space/hyphen | OPEN | 2 |
+| [CE-4015](https://pointdf.atlassian.net/browse/CE-4015) | [CP] Remove AuthorizedContacts feature flag | PR | 1 |
+| [CE-4019](https://pointdf.atlassian.net/browse/CE-4019) | Update browser extension for additional fields | RC | 1 |
 
-### CE-3942 - Login Flexibility Epic (2 substories without estimate)
+### Pratheesh Harikumar (2 issues)
 
-**29 substories now have estimates.** 2 remaining:
+| Issue | Title | Status | Size |
+|-------|-------|--------|------|
+| [CE-4035](https://pointdf.atlassian.net/browse/CE-4035) | Enum missing error in /dashboard | PR | 1 |
+| [CE-3964](https://pointdf.atlassian.net/browse/CE-3964) | [TASK] Submit A2P 10DLC registration for SMS | PR | 1 |
 
-| Issue | Title | Status | Assignee | Suggested Size | Rationale |
-|-------|-------|--------|----------|----------------|-----------|
-| [CE-4048](https://pointdf.atlassian.net/browse/CE-4048) | [CP] Max tries should have back to login leading to email login | IN PROGRESS | | 1 | FE fix, contained |
-| [CE-3964](https://pointdf.atlassian.net/browse/CE-3964) | [TASK] Submit A2P 10DLC registration for SMS | PR | Pratheesh Harikumar | 1 | Admin task, contained |
+### SungMin Hong (1 issue)
+
+| Issue | Title | Status | Size |
+|-------|-------|--------|------|
+| [GRO-1235](https://pointdf.atlassian.net/browse/GRO-1235) | [QA] Add E2E test(s) for automatic offer creation | OPEN | 2 |
+
+### Josh Hohman (1 issue)
+
+| Issue | Title | Status | Size |
+|-------|-------|--------|------|
+| [CE-3926](https://pointdf.atlassian.net/browse/CE-3926) | HO Dashboard timeline messaging incorrect | BACKLOG | 1 |
+
+### Unassigned (1 issue)
+
+| Issue | Title | Status | Size |
+|-------|-------|--------|------|
+| [CE-4048](https://pointdf.atlassian.net/browse/CE-4048) | [CP] Max tries should have back to login leading to email login | IN PROGRESS | 1 |
 
 ---
 

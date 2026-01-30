@@ -197,7 +197,6 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 | No story points on 16 issues | Can't validate estimates against actuals | Size active (12) + backfill Done (4) |
 | GRO-1246 under-scoped | 280 hrs planned but only 1 story exists | Break down before Feb |
 | GRO-1189 under-scoped | 250 hrs planned but only spike exists | Complete spike, create stories |
-| GRO-1269 not accessible | Can't analyze HELOC Opt-In epic | Verify permissions |
 
 ---
 
@@ -246,10 +245,9 @@ This document analyzes story point estimates for active Q1 2026 work across Grow
 2. [ ] Break down [GRO-1246](https://pointdf.atlassian.net/browse/GRO-1246) into implementation stories
 3. [ ] Complete [GRO-1191](https://pointdf.atlassian.net/browse/GRO-1191) spike for React 19 and create stories
 4. [x] ~~Assign CE-3923~~ - Assigned to Daniel Cardenas
-5. [ ] Verify access to GRO-1269 (HELOC Opt-In)
-6. [x] ~~Break down CE-3942 (Login Flexibility) stories~~ - 30 substories identified
-7. [x] ~~Add estimates to CE-3942 substories~~ - 29 of 30 now have estimates
-8. [ ] Backfill points on Done items for velocity tracking (GRO-1284, GRO-1264, GRO-1253, GRO-1212)
+5. [x] ~~Break down CE-3942 (Login Flexibility) stories~~ - 30 substories identified
+6. [x] ~~Add estimates to CE-3942 substories~~ - 29 of 30 now have estimates
+7. [ ] Backfill points on Done items for velocity tracking (GRO-1284, GRO-1264, GRO-1253, GRO-1212)
 
 ---
 
